@@ -1,0 +1,24 @@
+.clickOnSmartphone {
+  position: absolute;
+  top: 61px;
+  left: 659px;
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--white);
+  display: inline-block;
+  width: 408px;
+  height: 17px;
+  z-index: 6;
+}
+.animationWrapper {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 100%;
+  height: 1083px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--p);
+}

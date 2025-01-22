@@ -1,0 +1,68 @@
+.groupIcon {
+  height: 57.9px;
+  width: 54px;
+  position: relative;
+  flex-shrink: 0;
+}
+.groupWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-42xl);
+}
+.avoidScam {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+.frameParent,
+.frameWrapper,
+.iconScrollAnimationParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-6xs-1);
+  flex-shrink: 0;
+}
+.frameWrapper,
+.iconScrollAnimationParent {
+  padding: var(--padding-14xl) 0 0;
+  font-size: var(--font-size-3xl);
+}
+.iconScrollAnimationParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-152xl) var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-83xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--p);
+}
+@media screen and (max-width: 1650px) {
+  .iconScrollAnimationParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .iconScrollAnimationParent {
+    gap: var(--gap-32xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .avoidScam {
+    font-size: var(--font-size-lg);
+  }
+  .iconScrollAnimationParent {
+    gap: var(--gap-6xl);
+  }
+}

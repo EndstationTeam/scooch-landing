@@ -1,0 +1,129 @@
+.statsBackground {
+  width: 100%;
+  height: 1485px;
+  position: absolute;
+  margin: 0 !important;
+  right: -1727px;
+  bottom: -1745px;
+  left: 1727px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(138, 87, 0, 0.6),
+    rgba(25, 28, 28, 0)
+  );
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.image2Icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 1238px;
+  max-height: 100%;
+  width: 147px;
+  object-fit: cover;
+}
+.pollutionImage {
+  align-self: stretch;
+  height: 147px;
+  position: relative;
+  z-index: 2;
+}
+.smartParkingSolution {
+  color: var(--color-orange);
+}
+.reduceUrbanPollutionContainer {
+  margin: 0;
+  height: 106px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.reduceUrbanPollutionWithOuWrapper {
+  width: 1699px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-492xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inTheUs {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.driverImpact,
+.pollutionStats {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.driverImpact {
+  width: 1699px;
+  flex-direction: row;
+  padding: 0 var(--padding-441xl) 0 var(--padding-442xl);
+  font-size: var(--p-size);
+}
+.pollutionStats {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-915xl);
+  position: relative;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--white);
+  font-family: var(--p);
+}
+@media screen and (max-width: 1300px) {
+  .driverImpact,
+  .reduceUrbanPollutionWithOuWrapper {
+    padding-left: var(--padding-236xl);
+    padding-right: var(--padding-236xl);
+    box-sizing: border-box;
+  }
+  .driverImpact {
+    padding-left: var(--padding-211xl);
+    padding-right: var(--padding-211xl);
+  }
+  .pollutionStats {
+    padding-bottom: var(--padding-588xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .reduceUrbanPollutionContainer {
+    font-size: var(--font-size-13xl);
+  }
+  .driverImpact,
+  .reduceUrbanPollutionWithOuWrapper {
+    padding-left: var(--padding-108xl);
+    padding-right: var(--padding-108xl);
+    box-sizing: border-box;
+  }
+  .driverImpact {
+    padding-left: var(--padding-96xl);
+    padding-right: var(--padding-96xl);
+  }
+  .pollutionStats {
+    padding-bottom: var(--padding-376xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .reduceUrbanPollutionContainer {
+    font-size: var(--font-size-5xl);
+  }
+  .driverImpact,
+  .reduceUrbanPollutionWithOuWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

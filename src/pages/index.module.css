@@ -1,0 +1,214 @@
+.appFeaturesParent {
+  align-self: stretch;
+  height: 1846px;
+  position: relative;
+  max-width: 100%;
+}
+.dataPlaceholders,
+.ofDrivers {
+  margin: 0 !important;
+  height: 68px;
+  width: 457px;
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.dataPlaceholders {
+  top: -16px;
+  font-weight: 900;
+}
+.ofDrivers {
+  top: 59px;
+}
+.trafficValues {
+  align-self: stretch;
+  height: 88px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.haveAvoidedGoing,
+.trafficValues {
+  position: relative;
+}
+.httpswwwfigmacom {
+  text-decoration: underline;
+}
+.sourceHttpswwwfigmacom {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-gainsboro);
+}
+.trafficData,
+.trafficExplanations {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.trafficExplanations {
+  width: 326px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--p-size);
+  color: var(--white);
+}
+.trafficData {
+  width: 456px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.isCausedBy {
+  margin: 0;
+}
+.isCausedByContainer {
+  align-self: stretch;
+  position: relative;
+}
+.trafficBreakdown,
+.trafficStats {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.trafficBreakdown {
+  flex: 1;
+  overflow-x: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 17px var(--padding-xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.trafficStats {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-915xl);
+  margin-top: -894px;
+}
+.earthForestConceptAiGeneraIcon,
+.severalCarsTraveledBusyRoaIcon {
+  width: 575px;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.severalCarsTraveledBusyRoaIcon {
+  width: 812px;
+}
+.trafficImage,
+.trafficVisualization {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.trafficImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+  z-index: 2;
+}
+.trafficVisualization {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 884px;
+  margin-top: -894px;
+}
+.pollutionContent,
+.pollutionContentWrapper,
+.trafficVisualization {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pollutionContent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0;
+}
+.pollutionContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  text-align: center;
+  font-size: var(--h1-size);
+  color: var(--color-orange);
+  font-family: var(--p);
+}
+.desktopV1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1650px) {
+  .appFeaturesParent {
+    height: auto;
+    min-height: 1846;
+  }
+  .earthForestConceptAiGeneraIcon,
+  .severalCarsTraveledBusyRoaIcon {
+    flex: 1;
+  }
+  .trafficImage {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .trafficStats {
+    padding-bottom: var(--padding-588xl);
+    box-sizing: border-box;
+  }
+  .trafficVisualization {
+    padding-bottom: 575px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .dataPlaceholders {
+    font-size: var(--font-size-39xl);
+  }
+  .ofDrivers {
+    font-size: var(--font-size-5xl);
+  }
+  .trafficStats {
+    padding-bottom: var(--padding-376xl);
+    box-sizing: border-box;
+  }
+  .trafficVisualization {
+    padding-bottom: 374px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dataPlaceholders {
+    font-size: var(--font-size-24xl);
+  }
+  .ofDrivers {
+    font-size: var(--font-size-lg);
+  }
+}

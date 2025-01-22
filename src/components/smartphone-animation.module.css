@@ -1,0 +1,505 @@
+.groupIcon {
+  height: 28.1px;
+  width: 60.4px;
+  position: relative;
+}
+.priceRangeLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-32xl);
+}
+.priceRangeInfo {
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.priceRange {
+  position: absolute;
+  top: 547px;
+  left: 873px;
+  width: 162px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-9);
+  text-align: left;
+  font-size: var(--p-size);
+  color: var(--white);
+}
+.lotParking {
+  flex: 1;
+  position: relative;
+}
+.lot {
+  position: absolute;
+  top: 740px;
+  left: 703px;
+  border-radius: var(--br-21xl);
+  background-color: var(--blue);
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-mini) var(--padding-5xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.residential,
+.streetParking {
+  margin: 0;
+}
+.residentialStreetParkingContainer {
+  flex: 1;
+  position: relative;
+}
+.residential1 {
+  position: absolute;
+  top: 778px;
+  left: 877px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gold);
+  width: 175px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-mini) var(--padding-5xs)
+    var(--padding-base);
+  box-sizing: border-box;
+}
+.garageParking {
+  flex: 1;
+  position: relative;
+}
+.garage {
+  position: absolute;
+  top: 353px;
+  left: 670px;
+  border-radius: var(--br-21xl);
+  background-color: var(--green);
+  width: 189px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-mini) var(--padding-5xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.availabilityIcons,
+.availabilityIcons1,
+.availabilityIcons2 {
+  width: 17px;
+  height: 17px;
+  position: relative;
+}
+.availabilityIconSet,
+.availabilityIcons3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.availabilityIconSet {
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.availabilityIcons3 {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.busyLot,
+.highNumberOf,
+.noSpotsAvailable {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.highNumberOf {
+  align-self: stretch;
+}
+.busyLot,
+.noSpotsAvailable {
+  width: 299px;
+  display: inline-block;
+}
+.noSpotsAvailable {
+  width: 185px;
+}
+.availabilityLevels,
+.spotAvailability {
+  display: flex;
+  justify-content: flex-start;
+}
+.availabilityLevels {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4xl-5);
+}
+.spotAvailability {
+  position: absolute;
+  top: 462px;
+  left: 667px;
+  width: 332px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-4xs);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--p-size);
+  color: var(--white);
+}
+.streetParking1 {
+  flex: 1;
+  position: relative;
+}
+.street {
+  position: absolute;
+  top: 393px;
+  left: 857px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-orange);
+  width: 178px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-mini) var(--padding-5xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.image3Icon,
+.simplePhone1 {
+  position: absolute;
+  top: 93px;
+  left: 648px;
+  width: 429px;
+  height: 870px;
+  object-fit: cover;
+  z-index: 2;
+}
+.image3Icon {
+  top: 279px;
+  left: 671px;
+  border-radius: var(--br-28xl);
+  width: 381px;
+  height: 665px;
+  z-index: 3;
+}
+.groupIcon1,
+.groupIcon2,
+.groupIcon3,
+.groupIcon4 {
+  position: absolute;
+  height: 4.55%;
+  width: 1.96%;
+  top: 63.53%;
+  right: 47.17%;
+  bottom: 31.92%;
+  left: 50.87%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.groupIcon2,
+.groupIcon3,
+.groupIcon4 {
+  top: 63.07%;
+  right: 54.82%;
+  bottom: 32.38%;
+  left: 43.22%;
+}
+.groupIcon3,
+.groupIcon4 {
+  top: 49.22%;
+  right: 54.7%;
+  bottom: 46.23%;
+  left: 43.34%;
+}
+.groupIcon4 {
+  top: 55.31%;
+  right: 44.33%;
+  bottom: 40.14%;
+  left: 53.71%;
+}
+.detailsBackground {
+  position: absolute;
+  top: 124px;
+  left: 0;
+  border-radius: var(--br-25xl);
+  background-color: var(--blue);
+  width: 100%;
+  height: 100%;
+}
+.locationNameChild {
+  width: 55.7px;
+  height: 56.2px;
+  position: relative;
+  flex-shrink: 0;
+}
+.locationName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs-8);
+}
+.lazLot {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+.street1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.mayfieldRd {
+  width: 136px;
+  position: relative;
+  font-size: var(--p-size);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.address,
+.location1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.address {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.location1 {
+  width: 298.9px;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xs-2);
+}
+.hourlyRates {
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+}
+.minFree {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 76px;
+}
+.rateCells {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm);
+}
+.min100 {
+  flex: 1;
+  position: relative;
+}
+.rateCells1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 var(--padding-xs);
+}
+.hr200 {
+  flex: 1;
+  position: relative;
+}
+.rateCells2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xl);
+}
+.hr350 {
+  flex: 1;
+  position: relative;
+}
+.rateCells3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+}
+.hourlyRates1,
+.rateTable {
+  display: flex;
+  justify-content: flex-start;
+}
+.rateTable {
+  height: 81px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 var(--padding-12xs) var(--padding-sm) 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.hourlyRates1 {
+  border-radius: var(--br-2xs);
+  background-color: var(--grey);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-mini) var(--padding-base);
+}
+.separator {
+  align-self: stretch;
+  position: relative;
+  font-weight: 900;
+}
+.hours,
+.minutes {
+  position: relative;
+  display: inline-block;
+  min-width: 37px;
+}
+.minutes {
+  min-width: 48px;
+}
+.unitLabels {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.duration,
+.timeDisplay,
+.timeUnits,
+.unitLabels {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.timeUnits {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  margin-top: -4px;
+  font-size: var(--font-size-xs);
+}
+.duration,
+.timeDisplay {
+  flex: 1;
+  flex-direction: column;
+}
+.timeDisplay {
+  align-self: stretch;
+  border-radius: var(--br-2xs);
+  border: 1px solid var(--white);
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-23xl);
+}
+.parkHereNow {
+  position: relative;
+  font-weight: 900;
+}
+.parkingButton {
+  border-radius: var(--br-2xs);
+  background-color: var(--black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm-5) var(--padding-4xl);
+  font-size: var(--p-size);
+}
+.timer {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--white);
+}
+.parkingInfo,
+.pricing,
+.timer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pricing {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--black);
+}
+.parkingInfo {
+  position: absolute;
+  top: 141px;
+  left: 25px;
+  width: 338px;
+  height: 186px;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  z-index: 1;
+}
+.parkingDetails {
+  position: absolute;
+  top: 726px;
+  left: 671px;
+  border-radius: var(--br-27xl);
+  width: 381px;
+  height: 218px;
+  overflow: hidden;
+  z-index: 5;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--white);
+}
+.smartphoneAnimation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--p);
+}
+@media screen and (max-width: 900px) {
+  .lazLot,
+  .separator {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .residentialStreetParkingContainer {
+    font-size: var(--p-size);
+  }
+  .lazLot,
+  .separator {
+    font-size: var(--font-size-lg);
+  }
+}

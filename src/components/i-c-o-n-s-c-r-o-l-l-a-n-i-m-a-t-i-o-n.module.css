@@ -1,0 +1,635 @@
+.groupIcon {
+  height: 61px;
+  width: 59px;
+  position: relative;
+}
+.groupWrapper {
+  width: 117px;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-39xl) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.ecoFriendly {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.iconRow {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+}
+.frameChild {
+  height: 60.7px;
+  width: 54.8px;
+  position: relative;
+}
+.iconRowInner {
+  width: 106px;
+  height: 60.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-32xl-2) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.private1 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.iconRow1 {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl-3);
+}
+.groupIcon1 {
+  height: 57.9px;
+  width: 54px;
+  position: relative;
+}
+.groupContainer {
+  width: 115px;
+  height: 57.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-42xl);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.secure {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.iconRow2 {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xl-1);
+}
+.frameItem {
+  height: 61.3px;
+  width: 71px;
+  position: relative;
+}
+.iconRowChild {
+  width: 105px;
+  height: 61.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+}
+.fastEasy {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.iconList,
+.iconRow3 {
+  height: 176px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconRow3 {
+  width: 218px;
+  flex-direction: column;
+  padding: var(--padding-20xl) var(--padding-2xl) var(--padding-12xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl-7);
+}
+.iconList {
+  flex-direction: row;
+  flex-shrink: 0;
+  position: relative;
+}
+.groupIcon2 {
+  height: 61px;
+  width: 59px;
+  position: relative;
+}
+.groupFrame {
+  width: 117px;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-39xl) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.ecoFriendly1 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+}
+.frameInner {
+  height: 60.7px;
+  width: 54.8px;
+  position: relative;
+}
+.frameWrapper {
+  width: 106px;
+  height: 60.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-32xl-2) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.private11 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameGroup {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl-3);
+}
+.groupIcon3 {
+  height: 57.9px;
+  width: 54px;
+  position: relative;
+}
+.frameBox {
+  width: 115px;
+  height: 57.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-42xl);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.secure1 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameContainer {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xl-1);
+}
+.frameChild1 {
+  height: 61.3px;
+  width: 71px;
+  position: relative;
+}
+.frameWrapper1 {
+  width: 105px;
+  height: 61.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+}
+.fastEasy1 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent1,
+.iconList1 {
+  height: 176px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  width: 218px;
+  flex-direction: column;
+  padding: var(--padding-20xl) var(--padding-2xl) var(--padding-12xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl-7);
+}
+.iconList1 {
+  flex-direction: row;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 3;
+}
+.groupIcon4 {
+  height: 61px;
+  width: 59px;
+  position: relative;
+}
+.groupWrapper1 {
+  width: 117px;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-39xl) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.ecoFriendly2 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent2 {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+}
+.frameChild2 {
+  height: 60.7px;
+  width: 54.8px;
+  position: relative;
+}
+.frameWrapper2 {
+  width: 106px;
+  height: 60.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-32xl-2) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.private12 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent3 {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl-3);
+}
+.groupIcon5 {
+  height: 57.9px;
+  width: 54px;
+  position: relative;
+}
+.groupWrapper2 {
+  width: 115px;
+  height: 57.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-42xl);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.secure2 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent4 {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xl-1);
+}
+.frameChild3 {
+  height: 61.3px;
+  width: 71px;
+  position: relative;
+}
+.frameWrapper3 {
+  width: 105px;
+  height: 61.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+}
+.fastEasy2 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent5,
+.iconList2 {
+  height: 176px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent5 {
+  width: 218px;
+  flex-direction: column;
+  padding: var(--padding-20xl) var(--padding-2xl) var(--padding-12xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl-7);
+}
+.iconList2 {
+  flex-direction: row;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+.groupIcon6 {
+  height: 61px;
+  width: 59px;
+  position: relative;
+}
+.groupWrapper3 {
+  width: 117px;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-39xl) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.ecoFriendly3 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent6 {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+}
+.frameChild4 {
+  height: 60.7px;
+  width: 54.8px;
+  position: relative;
+}
+.frameWrapper4 {
+  width: 106px;
+  height: 60.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-32xl-2) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.private13 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent7 {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl-3);
+}
+.groupIcon7 {
+  height: 57.9px;
+  width: 54px;
+  position: relative;
+}
+.groupWrapper4 {
+  width: 115px;
+  height: 57.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-42xl);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.secure3 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent8 {
+  height: 176px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-2xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xl-1);
+}
+.frameChild5 {
+  height: 61.3px;
+  width: 71px;
+  position: relative;
+}
+.frameWrapper5 {
+  width: 105px;
+  height: 61.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+}
+.fastEasy3 {
+  width: 177px;
+  height: 24px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent9,
+.iconList3 {
+  height: 176px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent9 {
+  width: 218px;
+  flex-direction: column;
+  padding: var(--padding-20xl) var(--padding-2xl) var(--padding-12xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl-7);
+}
+.iconList3 {
+  flex-direction: row;
+  flex-shrink: 0;
+  position: relative;
+}
+.iconScrollAnimation {
+  height: 176px;
+  width: 1726px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 872px);
+  grid-row-gap: 0;
+  grid-column-gap: 0;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--p);
+}

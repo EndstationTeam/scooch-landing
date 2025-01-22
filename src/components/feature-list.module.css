@@ -1,0 +1,68 @@
+.findParkingEasily {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.parkingBenefits {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.locateTheBest {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  display: inline-block;
+  width: 454px;
+  height: 44px;
+}
+.iphone2planDeTravail12Icon {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 456px;
+  height: 446px;
+  object-fit: cover;
+  z-index: 1;
+}
+.reminderBenefits {
+  align-self: stretch;
+  height: 461px;
+  position: relative;
+  font-size: var(--p-size);
+  color: var(--grey-2);
+}
+.featureList {
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--black);
+  font-family: var(--p);
+}
+@media screen and (max-width: 900px) {
+  .findParkingEasily {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .findParkingEasily {
+    font-size: var(--font-size-5xl);
+  }
+}
