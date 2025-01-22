@@ -4,21 +4,27 @@
   position: relative;
   max-width: 100%;
 }
-.dataPlaceholders,
+.dataPlaceholders {
+  height: 68px;
+  width: 457px;
+  position: absolute;
+  margin: 0 !important;
+  top: -16px;
+  left: 0px;
+  font-weight: 900;
+  display: inline-block;
+}
 .ofDrivers {
   margin: 0 !important;
   height: 68px;
   width: 457px;
   position: absolute;
-  left: 0;
-  display: inline-block;
-}
-.dataPlaceholders {
-  top: -16px;
-  font-weight: 900;
-}
-.ofDrivers {
   top: 59px;
+  left: 0px;
+  font-size: var(--h3-size);
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
 }
 .trafficValues {
   align-self: stretch;
@@ -29,10 +35,10 @@
   justify-content: flex-start;
   padding: var(--padding-3xs);
   box-sizing: border-box;
+  position: relative;
   gap: var(--gap-3xs);
 }
-.haveAvoidedGoing,
-.trafficValues {
+.haveAvoidedGoing {
   position: relative;
 }
 .httpswwwfigmacom {
@@ -44,26 +50,26 @@
   font-size: var(--font-size-sm);
   color: var(--color-gainsboro);
 }
-.trafficData,
-.trafficExplanations {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-}
 .trafficExplanations {
   width: 326px;
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-3xs);
+  max-width: 100%;
   font-size: var(--p-size);
   color: var(--white);
 }
 .trafficData {
   width: 456px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--gap-xl);
+  max-width: 100%;
 }
 .isCausedBy {
   margin: 0;
@@ -72,31 +78,31 @@
   align-self: stretch;
   position: relative;
 }
-.trafficBreakdown,
-.trafficStats {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  max-width: 100%;
-}
 .trafficBreakdown {
   flex: 1;
   overflow-x: auto;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 17px var(--padding-xl);
+  box-sizing: border-box;
   gap: var(--gap-xl);
+  max-width: 100%;
   z-index: 1;
 }
 .trafficStats {
   align-self: stretch;
+  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-915xl);
+  padding: 0px 0px var(--padding-915xl);
+  box-sizing: border-box;
+  max-width: 100%;
   margin-top: -894px;
 }
-.earthForestConceptAiGeneraIcon,
-.severalCarsTraveledBusyRoaIcon {
+.earthForestConceptAiGeneraIcon {
   width: 575px;
   position: relative;
   border-radius: var(--br-xl);
@@ -106,17 +112,19 @@
 }
 .severalCarsTraveledBusyRoaIcon {
   width: 812px;
-}
-.trafficImage,
-.trafficVisualization {
-  flex-direction: row;
-  align-items: flex-start;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
 }
 .trafficImage {
   flex: 1;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl);
+  padding: 0px var(--padding-xl);
   box-sizing: border-box;
   gap: var(--gap-lgi);
   max-width: 100%;
@@ -124,34 +132,38 @@
 }
 .trafficVisualization {
   align-self: stretch;
-  justify-content: flex-start;
-  padding: 0 0 884px;
-  margin-top: -894px;
-}
-.pollutionContent,
-.pollutionContentWrapper,
-.trafficVisualization {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 884px;
   box-sizing: border-box;
   max-width: 100%;
+  margin-top: -894px;
 }
 .pollutionContent {
   flex: 1;
+  display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 0;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .pollutionContentWrapper {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-12xs) 0 0;
+  padding: 0px var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
   text-align: center;
   font-size: var(--h1-size);
-  color: var(--color-orange);
-  font-family: var(--p);
+  color: var(--orange);
+  font-family: var(--h3);
 }
 .desktopV1 {
   width: 100%;
@@ -165,15 +177,21 @@
   line-height: normal;
   letter-spacing: normal;
 }
+
 @media screen and (max-width: 1650px) {
   .appFeaturesParent {
     height: auto;
     min-height: 1846;
   }
-  .earthForestConceptAiGeneraIcon,
+
+  .earthForestConceptAiGeneraIcon {
+    flex: 1;
+  }
+
   .severalCarsTraveledBusyRoaIcon {
     flex: 1;
   }
+
   .trafficImage {
     flex-wrap: wrap;
   }
@@ -183,6 +201,7 @@
     padding-bottom: var(--padding-588xl);
     box-sizing: border-box;
   }
+
   .trafficVisualization {
     padding-bottom: 575px;
     box-sizing: border-box;
@@ -192,13 +211,16 @@
   .dataPlaceholders {
     font-size: var(--font-size-39xl);
   }
+
   .ofDrivers {
     font-size: var(--font-size-5xl);
   }
+
   .trafficStats {
     padding-bottom: var(--padding-376xl);
     box-sizing: border-box;
   }
+
   .trafficVisualization {
     padding-bottom: 374px;
     box-sizing: border-box;
@@ -208,6 +230,7 @@
   .dataPlaceholders {
     font-size: var(--font-size-24xl);
   }
+
   .ofDrivers {
     font-size: var(--font-size-lg);
   }

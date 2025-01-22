@@ -11,46 +11,39 @@ const AppFeatures: FunctionComponent<AppFeaturesType> = ({
   className = "",
 }) => {
   return (
-    <Box className={[styles.appFeatures, className].join(" ")}>
-      <Box className={styles.appFeaturesChild} />
-      <Box className={styles.featureColumn}>
-        <Box className={styles.firstFeature}>
-          <Box className={styles.frameParent}>
-            <Box className={styles.frameGroup}>
-              <Box className={styles.availableOnTheAppParent}>
-                <Box className={styles.availableOnThe}>
+    <div className={[styles.appFeatures, className].join(" ")}>
+      <div className={styles.appFeaturesChild} />
+      <div className={styles.featureColumn}>
+        <div className={styles.firstFeature}>
+          <div className={styles.frameParent}>
+            <div className={styles.frameGroup}>
+              <div className={styles.availableOnTheAppParent}>
+                <div className={styles.availableOnThe}>
                   Available on the app
-                </Box>
-                <Typography
-                  className={styles.aiValet}
-                  variant="inherit"
-                  component="h1"
-                  sx={{ fontWeight: "900", fontSize: "var(--h2-size)" }}
-                >
-                  AI Valet
-                </Typography>
-              </Box>
-              <Box className={styles.frameWrapper}>
-                <Box className={styles.frameContainer}>
-                  <Box className={styles.aiIconWrapper}>
+                </div>
+                <h1 className={styles.aiValet}>AI Valet</h1>
+              </div>
+              <div className={styles.frameWrapper}>
+                <div className={styles.frameContainer}>
+                  <div className={styles.aiIconWrapper}>
                     <img
                       className={styles.aiIcon}
                       loading="lazy"
                       alt=""
                       src="/vector.svg"
                     />
-                  </Box>
-                  <Box className={styles.ourAiAgentContainer}>
-                    <Typography className={styles.ourAiAgent} variant="inherit">
+                  </div>
+                  <div className={styles.ourAiAgentContainer}>
+                    <p className={styles.ourAiAgent}>
                       Our AI agent works behind the scenes
-                    </Typography>
-                    <Typography className={styles.ourAiAgent} variant="inherit">
+                    </p>
+                    <p className={styles.ourAiAgent}>
                       to find you spots and pay for parking.
-                    </Typography>
-                  </Box>
-                </Box>
-              </Box>
-            </Box>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <Button
               disableElevation
               variant="contained"
@@ -66,9 +59,9 @@ const AppFeatures: FunctionComponent<AppFeaturesType> = ({
             >
               DOWNLOAD the APP
             </Button>
-          </Box>
-        </Box>
-        <Box className={styles.secondFeature}>
+          </div>
+        </div>
+        <div className={styles.secondFeature}>
           <img
             className={styles.iphonePlanDeTravail1Icon}
             loading="lazy"
@@ -80,49 +73,40 @@ const AppFeatures: FunctionComponent<AppFeaturesType> = ({
             alt=""
             src="/iphoneplandetravail1copie-1@2x.png"
           />
-        </Box>
-      </Box>
-      <Box className={styles.featureColumn1}>
-        <Typography
-          className={styles.enRoute}
-          variant="inherit"
-          component="h1"
-          sx={{ fontWeight: "900", fontSize: "var(--h2-size)" }}
-        >
-          En route
-        </Typography>
-        <Box className={styles.findTheBest}>
+        </div>
+      </div>
+      <div className={styles.featureColumn1}>
+        <h1 className={styles.enRoute}>En route</h1>
+        <div className={styles.findTheBest}>
           Find the best spot by your destination.
-        </Box>
-        <Box className={styles.canTheParking}>Can the parking sign to pay.</Box>
-        <Box className={styles.loyaltyAccountsAre}>
+        </div>
+        <div className={styles.canTheParking}>Can the parking sign to pay.</div>
+        <div className={styles.loyaltyAccountsAre}>
           Loyalty accounts are created and managed on your behalf You just reap
           the rewards.
-        </Box>
-        <Box className={styles.carIconParent}>
+        </div>
+        <div className={styles.carIconParent}>
           <img
             className={styles.carIcon}
             loading="lazy"
             alt=""
             src="/vector-1.svg"
           />
-          <Box className={styles.scanYourCarToAddItParent}>
-            <Box className={styles.scanYourCar}>Scan your car to add it.</Box>
-            <img className={styles.addCarIcon} alt="" src="/vector-2.svg" />
-          </Box>
-          <img className={styles.featureIcon} alt="" src="/vector-3.svg" />
-          <img className={styles.featureIcon1} alt="" src="/vector-4.svg" />
-          <Box className={styles.wrapperContainer}>
-            <img
-              className={styles.containerIcon}
-              loading="lazy"
-              alt=""
-              src="/frame-65@2x.png"
-            />
-          </Box>
-        </Box>
-      </Box>
-    </Box>
+          <div className={styles.scanYourCarToAddItParent}>
+            <div className={styles.scanYourCar}>Scan your car to add it.</div>
+            <img className={styles.addCarIcon} alt="" src="/vector-1.svg" />
+          </div>
+          <img className={styles.featureIcon} alt="" src="/vector-1.svg" />
+          <img className={styles.featureIcon1} alt="" src="/vector-1.svg" />
+          <img
+            className={styles.containerIcon}
+            loading="lazy"
+            alt=""
+            src="/frame-65@2x.png"
+          />
+        </div>
+      </div>
+    </div>
   );
 };
 

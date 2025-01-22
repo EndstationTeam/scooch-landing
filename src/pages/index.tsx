@@ -12,7 +12,7 @@ import * as styles from "./index.module.css";
 
 const DesktopV: FunctionComponent = () => {
   return (
-    <Box className={styles.desktopV1}>
+    <div className={styles.desktopV1}>
       <FrameComponent />
       <FrameComponent1 />
       <FrameComponent2 />
@@ -21,109 +21,72 @@ const DesktopV: FunctionComponent = () => {
         <AnimationWrapper />
       </section>
       <section className={styles.pollutionContentWrapper}>
-        <Box className={styles.pollutionContent}>
+        <div className={styles.pollutionContent}>
           <PollutionStats />
-          <Box className={styles.trafficStats}>
-            <Box className={styles.trafficBreakdown}>
-              <Box className={styles.trafficData}>
-                <Box className={styles.trafficValues}>
-                  <Box className={styles.dataPlaceholders}>63%</Box>
-                  <Typography
-                    className={styles.ofDrivers}
-                    variant="inherit"
-                    component="h2"
-                    sx={{ fontWeight: "500", fontSize: "var(--h3-size)" }}
-                  >
-                    of drivers
-                  </Typography>
-                </Box>
-                <Box className={styles.trafficExplanations}>
-                  <Box className={styles.haveAvoidedGoing}>
+          <div className={styles.trafficStats}>
+            <div className={styles.trafficBreakdown}>
+              <div className={styles.trafficData}>
+                <div className={styles.trafficValues}>
+                  <div className={styles.dataPlaceholders}>63%</div>
+                  <h2 className={styles.ofDrivers}>of drivers</h2>
+                </div>
+                <div className={styles.trafficExplanations}>
+                  <div className={styles.haveAvoidedGoing}>
                     have avoided going to a destination due to the challenge of
                     finding parking.
-                  </Box>
-                  <Box className={styles.sourceHttpswwwfigmacom}>
+                  </div>
+                  <div className={styles.sourceHttpswwwfigmacom}>
                     {`Source: `}
-                    <Typography
-                      className={styles.httpswwwfigmacom}
-                      variant="inherit"
-                      component="span"
-                    >
+                    <span className={styles.httpswwwfigmacom}>
                       https://www.figma.com
-                    </Typography>
-                  </Box>
-                </Box>
-              </Box>
-              <Box className={styles.trafficData}>
-                <Box className={styles.trafficValues}>
-                  <Box className={styles.dataPlaceholders}>30%</Box>
-                  <Typography
-                    className={styles.ofDrivers}
-                    variant="inherit"
-                    component="h2"
-                    sx={{ fontWeight: "500", fontSize: "var(--h3-size)" }}
-                  >
-                    of urban traffic
-                  </Typography>
-                </Box>
-                <Box className={styles.trafficExplanations}>
-                  <Box className={styles.isCausedByContainer}>
-                    <Typography className={styles.isCausedBy} variant="inherit">
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.trafficData}>
+                <div className={styles.trafficValues}>
+                  <div className={styles.dataPlaceholders}>30%</div>
+                  <h2 className={styles.ofDrivers}>of urban traffic</h2>
+                </div>
+                <div className={styles.trafficExplanations}>
+                  <div className={styles.isCausedByContainer}>
+                    <p className={styles.isCausedBy}>
                       is caused by drivers searching
-                    </Typography>
-                    <Typography className={styles.isCausedBy} variant="inherit">
-                      for a parking.
-                    </Typography>
-                  </Box>
-                  <Box className={styles.sourceHttpswwwfigmacom}>
+                    </p>
+                    <p className={styles.isCausedBy}>for a parking.</p>
+                  </div>
+                  <div className={styles.sourceHttpswwwfigmacom}>
                     {`Source: `}
-                    <Typography
-                      className={styles.httpswwwfigmacom}
-                      variant="inherit"
-                      component="span"
-                    >
+                    <span className={styles.httpswwwfigmacom}>
                       https://www.figma.com
-                    </Typography>
-                  </Box>
-                </Box>
-              </Box>
-              <Box className={styles.trafficData}>
-                <Box className={styles.trafficValues}>
-                  <Box className={styles.dataPlaceholders}>55</Box>
-                  <Typography
-                    className={styles.ofDrivers}
-                    variant="inherit"
-                    component="h2"
-                    sx={{ fontWeight: "500", fontSize: "var(--h3-size)" }}
-                  >
-                    hours wasted
-                  </Typography>
-                </Box>
-                <Box className={styles.trafficExplanations}>
-                  <Box className={styles.isCausedByContainer}>
-                    <Typography className={styles.isCausedBy} variant="inherit">
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.trafficData}>
+                <div className={styles.trafficValues}>
+                  <div className={styles.dataPlaceholders}>55</div>
+                  <h2 className={styles.ofDrivers}>hours wasted</h2>
+                </div>
+                <div className={styles.trafficExplanations}>
+                  <div className={styles.isCausedByContainer}>
+                    <p className={styles.isCausedBy}>
                       by the average driver each year
-                    </Typography>
-                    <Typography className={styles.isCausedBy} variant="inherit">
-                      when trying to park.
-                    </Typography>
-                  </Box>
-                  <Box className={styles.sourceHttpswwwfigmacom}>
+                    </p>
+                    <p className={styles.isCausedBy}>when trying to park.</p>
+                  </div>
+                  <div className={styles.sourceHttpswwwfigmacom}>
                     {`Source: `}
-                    <Typography
-                      className={styles.httpswwwfigmacom}
-                      variant="inherit"
-                      component="span"
-                    >
+                    <span className={styles.httpswwwfigmacom}>
                       https://www.figma.com
-                    </Typography>
-                  </Box>
-                </Box>
-              </Box>
-            </Box>
-          </Box>
-          <Box className={styles.trafficVisualization}>
-            <Box className={styles.trafficImage}>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.trafficVisualization}>
+            <div className={styles.trafficImage}>
               <img
                 className={styles.earthForestConceptAiGeneraIcon}
                 loading="lazy"
@@ -136,12 +99,12 @@ const DesktopV: FunctionComponent = () => {
                 alt=""
                 src="/severalcarstraveledbusyroadwaytrafficlights-1@2x.png"
               />
-            </Box>
-          </Box>
+            </div>
+          </div>
           <Footer />
-        </Box>
+        </div>
       </section>
-    </Box>
+    </div>
   );
 };
 

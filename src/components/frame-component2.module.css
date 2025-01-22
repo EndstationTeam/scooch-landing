@@ -2,6 +2,9 @@
   margin: 0;
   flex: 1;
   position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
   display: inline-block;
   max-width: 100%;
 }
@@ -11,7 +14,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-207xl);
+  padding: 0px var(--padding-207xl);
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -19,74 +22,83 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  color: var(--color-orange);
-}
-.buttonWrapper,
-.frameGroup {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  font-size: var(--h2-size);
+  font-weight: 900;
+  font-family: inherit;
+  color: var(--orange);
 }
 .frameGroup {
   align-self: stretch;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   max-width: 100%;
 }
 .buttonWrapper {
+  display: flex;
   flex-direction: row;
-  padding: 0 var(--padding-536xl) 0 var(--padding-534xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-536xl) 0px var(--padding-534xl);
 }
-.desktopV1Inner,
 .frameParent {
   display: flex;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.frameParent {
   flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-21xl);
+  max-width: 100%;
 }
 .desktopV1Inner {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-xl) var(--padding-4xl);
+  padding: 0px var(--padding-xl) var(--padding-xl) var(--padding-4xl);
   box-sizing: border-box;
+  max-width: 100%;
   text-align: center;
   font-size: var(--h1-size);
   color: var(--white);
-  font-family: var(--p);
+  font-family: var(--h3);
 }
+
 @media screen and (max-width: 1300px) {
-  .buttonWrapper,
   .parkingJustGotSimplerWrapper {
     padding-left: var(--padding-94xl);
     padding-right: var(--padding-94xl);
     box-sizing: border-box;
   }
+
   .buttonWrapper {
     padding-left: var(--padding-257xl);
     padding-right: var(--padding-258xl);
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 900px) {
   .parkingJustGot {
     font-size: var(--font-size-39xl);
   }
+
   .parkingJustGotSimplerWrapper {
     padding-left: var(--padding-37xl);
     padding-right: var(--padding-37xl);
     box-sizing: border-box;
   }
+
   .readyToPark {
     font-size: var(--font-size-13xl);
   }
+
   .buttonWrapper {
     padding-left: var(--padding-119xl);
     padding-right: var(--padding-119xl);
     box-sizing: border-box;
   }
+
   .frameParent {
     gap: var(--gap-xl);
   }
@@ -95,14 +107,17 @@
   .parkingJustGot {
     font-size: var(--font-size-24xl);
   }
+
   .parkingJustGotSimplerWrapper {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .readyToPark {
     font-size: var(--font-size-5xl);
   }
+
   .buttonWrapper {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);

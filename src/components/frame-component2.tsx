@@ -12,28 +12,16 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
 }) => {
   return (
     <section className={[styles.desktopV1Inner, className].join(" ")}>
-      <Box className={styles.frameParent}>
-        <Box className={styles.frameGroup}>
-          <Box className={styles.parkingJustGotSimplerWrapper}>
-            <Typography
-              className={styles.parkingJustGot}
-              variant="inherit"
-              component="h1"
-              sx={{ fontWeight: "900" }}
-            >
-              Parking just got simpler.
-            </Typography>
-          </Box>
-          <Typography
-            className={styles.readyToPark}
-            variant="inherit"
-            component="h1"
-            sx={{ fontWeight: "900", fontSize: "var(--h2-size)" }}
-          >
+      <div className={styles.frameParent}>
+        <div className={styles.frameGroup}>
+          <div className={styles.parkingJustGotSimplerWrapper}>
+            <h1 className={styles.parkingJustGot}>Parking just got simpler.</h1>
+          </div>
+          <h1 className={styles.readyToPark}>
             Ready to park smarter? Get started with Scooch today.
-          </Typography>
-        </Box>
-        <Box className={styles.buttonWrapper}>
+          </h1>
+        </div>
+        <div className={styles.buttonWrapper}>
           <Button
             disableElevation
             variant="contained"
@@ -49,8 +37,8 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
           >
             DOWNLOAD the APP
           </Button>
-        </Box>
-      </Box>
+        </div>
+      </div>
     </section>
   );
 };

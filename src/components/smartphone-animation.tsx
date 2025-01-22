@@ -15,59 +15,36 @@ const SmartphoneAnimation: FunctionComponent<SmartphoneAnimationType> = ({
   property1 = "Default",
 }) => {
   return (
-    <Box
+    <div
       className={[styles.smartphoneAnimation, className].join(" ")}
       data-property1={property1}
     >
-      <Box className={styles.priceRange}>
-        <Box className={styles.priceRangeLabel}>
+      <div className={styles.priceRange}>
+        <div className={styles.priceRangeLabel}>
           <img
             className={styles.groupIcon}
             loading="lazy"
             alt=""
             src="/group-9.svg"
           />
-        </Box>
-        <Box className={styles.priceRangeInfo}>PRICE RANGE INFO</Box>
-      </Box>
-      <Box className={styles.lot}>
-        <Typography
-          className={styles.lotParking}
-          variant="inherit"
-          component="b"
-          sx={{ fontWeight: "700" }}
-        >
-          Lot parking
-        </Typography>
-      </Box>
-      <Box className={styles.residential1}>
-        <Typography
-          className={styles.residentialStreetParkingContainer}
-          variant="inherit"
-          component="b"
-          sx={{ fontWeight: "700" }}
-        >
-          <Typography className={styles.residential} variant="inherit">
-            Residential
-          </Typography>
-          <Typography className={styles.streetParking} variant="inherit">
-            street parking
-          </Typography>
-        </Typography>
-      </Box>
-      <Box className={styles.garage}>
-        <Typography
-          className={styles.garageParking}
-          variant="inherit"
-          component="b"
-          sx={{ fontWeight: "700" }}
-        >
-          Garage parking
-        </Typography>
-      </Box>
-      <Box className={styles.spotAvailability}>
-        <Box className={styles.availabilityIcons3}>
-          <Box className={styles.availabilityIconSet}>
+        </div>
+        <div className={styles.priceRangeInfo}>PRICE RANGE INFO</div>
+      </div>
+      <div className={styles.lot}>
+        <b className={styles.lotParking}>Lot parking</b>
+      </div>
+      <div className={styles.residential1}>
+        <b className={styles.residentialStreetParkingContainer}>
+          <p className={styles.residential}>Residential</p>
+          <p className={styles.streetParking}>street parking</p>
+        </b>
+      </div>
+      <div className={styles.garage}>
+        <b className={styles.garageParking}>Garage parking</b>
+      </div>
+      <div className={styles.spotAvailability}>
+        <div className={styles.availabilityIcons3}>
+          <div className={styles.availabilityIconSet}>
             <img
               className={styles.availabilityIcons}
               alt=""
@@ -83,26 +60,19 @@ const SmartphoneAnimation: FunctionComponent<SmartphoneAnimationType> = ({
               alt=""
               src="/vector-7.svg"
             />
-          </Box>
-        </Box>
-        <Box className={styles.availabilityLevels}>
-          <Box className={styles.highNumberOf}>
+          </div>
+        </div>
+        <div className={styles.availabilityLevels}>
+          <div className={styles.highNumberOf}>
             high number of available spots
-          </Box>
-          <Box className={styles.busyLot}>busy lot - more than half full</Box>
-          <Box className={styles.noSpotsAvailable}>no spots available</Box>
-        </Box>
-      </Box>
-      <Box className={styles.street}>
-        <Typography
-          className={styles.streetParking1}
-          variant="inherit"
-          component="b"
-          sx={{ fontWeight: "700" }}
-        >
-          Street parking
-        </Typography>
-      </Box>
+          </div>
+          <div className={styles.busyLot}>busy lot - more than half full</div>
+          <div className={styles.noSpotsAvailable}>no spots available</div>
+        </div>
+      </div>
+      <div className={styles.street}>
+        <b className={styles.streetParking1}>Street parking</b>
+      </div>
       <img
         className={styles.simplePhone1}
         alt=""
@@ -133,77 +103,63 @@ const SmartphoneAnimation: FunctionComponent<SmartphoneAnimationType> = ({
         alt=""
         src="/group-13.svg"
       />
-      <Box className={styles.parkingDetails}>
-        <Box className={styles.detailsBackground} />
-        <Box className={styles.parkingInfo}>
-          <Box className={styles.location1}>
-            <Box className={styles.locationName}>
+      <div className={styles.parkingDetails}>
+        <div className={styles.detailsBackground} />
+        <div className={styles.parkingInfo}>
+          <div className={styles.location1}>
+            <div className={styles.locationName}>
               <img
                 className={styles.locationNameChild}
                 loading="lazy"
                 alt=""
                 src="/group-119.svg"
               />
-            </Box>
-            <Box className={styles.address}>
-              <Box className={styles.street1}>
-                <Typography
-                  className={styles.lazLot}
-                  variant="inherit"
-                  component="h2"
-                  sx={{ fontWeight: "900" }}
-                >
-                  LAZ - Lot #22
-                </Typography>
-              </Box>
-              <Box className={styles.mayfieldRd}>1234 Mayfield Rd</Box>
-            </Box>
-          </Box>
-          <Box className={styles.pricing}>
-            <Box className={styles.hourlyRates1}>
-              <Box className={styles.rateTable}>
-                <Typography
-                  className={styles.hourlyRates}
-                  variant="inherit"
-                  component="b"
-                  sx={{ fontSize: "var(--font-size-smi)", fontWeight: "700" }}
-                >
-                  hourly rates
-                </Typography>
-                <Box className={styles.rateCells}>
-                  <Box className={styles.minFree}>15min = FREE</Box>
-                </Box>
-                <Box className={styles.rateCells1}>
-                  <Box className={styles.min100}>30min = $1.00</Box>
-                </Box>
-                <Box className={styles.rateCells2}>
-                  <Box className={styles.hr200}>1hr = $2.00</Box>
-                </Box>
-                <Box className={styles.rateCells3}>
-                  <Box className={styles.hr350}>2hr = $3.50</Box>
-                </Box>
-              </Box>
-            </Box>
-            <Box className={styles.timer}>
-              <Box className={styles.timeDisplay}>
-                <Box className={styles.duration}>
-                  <Box className={styles.separator}>01 : 30</Box>
-                  <Box className={styles.timeUnits}>
-                    <Box className={styles.unitLabels}>
-                      <Box className={styles.hours}>Hours</Box>
-                      <Box className={styles.minutes}>Minutes</Box>
-                    </Box>
-                  </Box>
-                </Box>
-              </Box>
-              <Box className={styles.parkingButton}>
-                <Box className={styles.parkHereNow}>PARK HERE NOW</Box>
-              </Box>
-            </Box>
-          </Box>
-        </Box>
-      </Box>
-    </Box>
+            </div>
+            <div className={styles.address}>
+              <div className={styles.street1}>
+                <h2 className={styles.lazLot}>LAZ - Lot #22</h2>
+              </div>
+              <div className={styles.mayfieldRd}>1234 Mayfield Rd</div>
+            </div>
+          </div>
+          <div className={styles.pricing}>
+            <div className={styles.hourlyRates1}>
+              <div className={styles.rateTable}>
+                <b className={styles.hourlyRates}>hourly rates</b>
+                <div className={styles.rateCells}>
+                  <div className={styles.minFree}>15min = FREE</div>
+                </div>
+                <div className={styles.rateCells1}>
+                  <div className={styles.min100}>30min = $1.00</div>
+                </div>
+                <div className={styles.rateCells2}>
+                  <div className={styles.hr200}>1hr = $2.00</div>
+                </div>
+                <div className={styles.rateCells3}>
+                  <div className={styles.hr350}>2hr = $3.50</div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.timer}>
+              <div className={styles.timeDisplay}>
+                <div className={styles.duration}>
+                  <div className={styles.separator}>01 : 30</div>
+                  <div className={styles.timeUnits}>
+                    <div className={styles.unitLabels}>
+                      <div className={styles.hours}>Hours</div>
+                      <div className={styles.minutes}>Minutes</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.parkingButton}>
+                <div className={styles.parkHereNow}>PARK HERE NOW</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

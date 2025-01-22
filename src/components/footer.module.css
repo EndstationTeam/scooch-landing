@@ -2,20 +2,22 @@
   height: 66px;
   width: 269px;
   position: relative;
-}
-.calque1Icon,
-.linkedInIcon {
   overflow: hidden;
   flex-shrink: 0;
 }
-.linkedInIcon,
+.linkedInIcon {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
 .linkedInLabels {
   height: 34px;
   width: 34px;
   position: relative;
 }
-.linkedInButton,
-.socialLinks {
+.linkedInButton {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -23,7 +25,10 @@
   gap: var(--gap-lgi);
 }
 .socialLinks {
+  display: flex;
+  flex-direction: row;
   align-items: flex-end;
+  justify-content: flex-start;
   gap: var(--gap-16xl);
   max-width: 100%;
 }
@@ -55,8 +60,7 @@
   gap: var(--gap-3xs);
   max-width: 100%;
 }
-.appStoreIcon,
-.googlePlayIcon {
+.appStoreIcon {
   height: 28px;
   width: 109px;
   position: relative;
@@ -64,9 +68,12 @@
   flex-shrink: 0;
 }
 .googlePlayIcon {
+  height: 28px;
   width: 118px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
 }
-.downloadOptions,
 .storeButtons {
   display: flex;
   flex-direction: row;
@@ -75,42 +82,47 @@
   gap: var(--gap-11xl);
 }
 .downloadOptions {
+  display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
 }
 .downloadOptionsWrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 var(--padding-12xs);
-}
-.footer,
-.footerContent {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  max-width: 100%;
+  padding: 0px 0px var(--padding-12xs);
 }
 .footerContent {
   flex: 1;
+  display: flex;
+  flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
   padding: var(--padding-81xl) var(--padding-141xl) var(--padding-80xl);
+  box-sizing: border-box;
+  max-width: 100%;
   gap: var(--gap-xl);
   z-index: 1;
 }
 .footer {
   align-self: stretch;
+  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-12xs) 0 0;
+  padding: 0px var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
   margin-top: -894px;
   text-align: left;
   font-size: var(--p-size);
   color: var(--white);
-  font-family: var(--p);
+  font-family: var(--h3);
 }
+
 @media screen and (max-width: 1300px) {
   .footerContent {
     flex-wrap: wrap;
@@ -128,9 +140,11 @@
     gap: var(--gap-mid);
     flex-wrap: wrap;
   }
+
   .contactDetails {
     gap: var(--gap-xl);
   }
+
   .footerContent {
     padding: var(--padding-895xl) var(--padding-xl) var(--padding-45xl);
     box-sizing: border-box;

@@ -1,35 +1,36 @@
-.backOrange,
-.calque1Icon {
-  align-self: stretch;
-  position: relative;
-}
 .backOrange {
+  align-self: stretch;
   height: 1734px;
+  position: relative;
   background: radial-gradient(
-    50% 50%at 50% 50%,
+    50% 50% at 50% 50%,
     rgba(71, 45, 0, 0.82),
     rgba(25, 28, 28, 0)
   );
   display: none;
 }
 .calque1Icon {
+  align-self: stretch;
   height: 40px;
+  position: relative;
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
 }
-.calque1Wrapper,
-.frameParent {
+.calque1Wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-4xs) 0 0;
+  padding: var(--padding-4xs) 0px 0px;
 }
 .frameParent {
   align-self: stretch;
   height: 120px;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: var(--padding-12xl) var(--padding-141xl);
   box-sizing: border-box;
   gap: var(--gap-1023xl);
@@ -39,32 +40,37 @@
 }
 .parkAnywhere {
   margin: 0;
+  position: absolute;
   top: 224px;
+  left: 0px;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
   display: inline-block;
   width: 559px;
   height: 86px;
   z-index: 1;
 }
-.button,
-.parkAnywhere,
-.withTheOnly {
-  position: absolute;
-  left: 0;
-}
 .withTheOnly {
   margin: 0;
+  position: absolute;
   top: 300px;
-  color: var(--color-orange);
+  left: 0px;
+  font-size: var(--h3-size);
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--orange);
   display: inline-block;
   width: 644px;
   height: 36px;
   z-index: 1;
 }
 .button {
+  position: absolute;
   top: 368px;
+  left: 0px;
 }
-.appStoreIcon,
-.googlePlayIcon {
+.appStoreIcon {
   position: absolute;
   top: 383px;
   left: 277px;
@@ -74,23 +80,29 @@
   z-index: 1;
 }
 .googlePlayIcon {
+  position: absolute;
+  top: 383px;
   left: 416px;
   width: 118px;
+  height: 28px;
+  overflow: hidden;
+  z-index: 1;
 }
-.iphonePlanDeTravail1CopieIcon,
 .iphonePlanDeTravail1Icon {
   position: absolute;
   top: 85.1px;
-  left: 0;
+  left: 0px;
   width: 623.1px;
   height: 710px;
   object-fit: contain;
 }
 .iphonePlanDeTravail1CopieIcon {
-  top: 0;
+  position: absolute;
+  top: 0px;
   left: 311.3px;
   width: 531.9px;
   height: 688.8px;
+  object-fit: contain;
   z-index: 1;
 }
 .iphonePlanDeTravail1Parent {
@@ -104,8 +116,8 @@
 .appDownloadInner {
   position: absolute;
   height: 100%;
-  top: 0;
-  bottom: 0;
+  top: 0px;
+  bottom: 0px;
   left: 577px;
   width: 830px;
   overflow: hidden;
@@ -127,7 +139,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-12xs);
+  padding: 0px var(--padding-12xs);
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -141,6 +153,9 @@
   margin: 0;
   align-self: stretch;
   position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
   z-index: 1;
 }
 .scoochLetsYou {
@@ -152,37 +167,42 @@
 }
 .scoochLetsYouPayForParkinWrapper {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-197xl) 0 var(--padding-198xl);
+  padding: 0px var(--padding-197xl) 0px var(--padding-198xl);
   box-sizing: border-box;
+  max-width: 100%;
   text-align: left;
   font-size: var(--p-size);
 }
-.frameDiv,
-.scoochLetsYouPayForParkinWrapper,
-.tiredOfDealingWithANewApParent {
-  display: flex;
-  align-items: flex-start;
-  max-width: 100%;
-}
 .tiredOfDealingWithANewApParent {
   width: 772px;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-3xs);
+  max-width: 100%;
 }
 .frameDiv {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  padding: 0px var(--padding-xl) 0px var(--padding-2xl);
   box-sizing: border-box;
+  max-width: 100%;
 }
 .saveTime {
   margin: 0;
   flex: 1;
   position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
 }
 .saveTimeWrapper {
   align-self: stretch;
@@ -190,7 +210,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-60xl) 0 var(--padding-61xl);
+  padding: 0px var(--padding-60xl) 0px var(--padding-61xl);
 }
 .skipTheDownloads {
   align-self: stretch;
@@ -206,60 +226,58 @@
   height: 446px;
   position: absolute;
   margin: 0 !important;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
   z-index: 1;
 }
-.advantageCard,
-.advantageCardWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: relative;
-}
 .advantageCard {
   align-self: stretch;
   border-radius: var(--br-xl);
   background-color: var(--white);
   overflow: hidden;
-  padding: var(--padding-21xl) 0 var(--padding-388xl);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 0px var(--padding-388xl);
+  position: relative;
   gap: var(--gap-3xs);
 }
 .advantageCardWrapper {
   margin-left: -487px;
-  padding: 0 var(--padding-xs) 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs) 0px 0px;
   box-sizing: border-box;
   max-width: 100%;
 }
 .frameParent1 {
   align-self: stretch;
   height: 549px;
-  padding: 0 var(--padding-12xs) 0 var(--padding-458xl);
+  padding: 0px var(--padding-12xs) 0px var(--padding-458xl);
   box-sizing: border-box;
   gap: var(--gap-lgi);
   max-width: 100%;
   display: grid;
   grid-template-columns: 468px repeat(auto-fit, 456px);
-  grid-row-gap: 0;
+  grid-row-gap: 0px;
   grid-column-gap: 19px;
   z-index: 1;
   color: var(--black);
 }
-.frameContainer,
-.frameGroup {
-  flex-direction: column;
-  justify-content: flex-start;
-}
 .frameContainer {
   align-self: stretch;
   display: flex;
+  flex-direction: column;
   align-items: flex-end;
+  justify-content: flex-start;
   gap: var(--gap-21xl);
   max-width: 100%;
   text-align: center;
@@ -267,54 +285,59 @@
 }
 .frameGroup {
   width: 1409px;
-  gap: var(--gap-156xl);
-}
-.backOrangeParent,
-.desktopV1Inner,
-.frameGroup,
-.frameWrapper {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-156xl);
   max-width: 100%;
 }
 .frameWrapper {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl);
+  padding: 0px var(--padding-xl);
   box-sizing: border-box;
-}
-.backOrangeParent,
-.desktopV1Inner {
-  justify-content: flex-start;
+  max-width: 100%;
 }
 .backOrangeParent {
   flex: 1;
   background: radial-gradient(
-    50% 50%at 50% 50%,
+    50% 50% at 50% 50%,
     rgba(71, 45, 0, 0.82),
     rgba(25, 28, 28, 0)
   );
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-56xl);
+  max-width: 100%;
 }
 .desktopV1Inner {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
-  padding: 0 0 var(--padding-153xl) var(--padding-12xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-153xl) var(--padding-12xs);
   box-sizing: border-box;
+  max-width: 100%;
   text-align: left;
   font-size: var(--h1-size);
   color: var(--white);
-  font-family: var(--p);
+  font-family: var(--h3);
 }
+
 @media screen and (max-width: 1650px) {
   .frameParent1 {
     flex-wrap: wrap;
     justify-content: center;
     display: grid;
     grid-template-columns: 468px repeat(auto-fit, 456px);
-    grid-row-gap: 0;
+    grid-row-gap: 0px;
     grid-column-gap: 19px;
   }
 }
@@ -325,16 +348,19 @@
     padding-right: var(--padding-61xl);
     box-sizing: border-box;
   }
+
   .frameParent1 {
     padding-left: var(--padding-219xl);
     display: grid;
     grid-template-columns: 468px repeat(auto-fit, 456px);
-    grid-row-gap: 0;
+    grid-row-gap: 0px;
     grid-column-gap: 19px;
   }
+
   .frameGroup {
     gap: var(--gap-68xl);
   }
+
   .desktopV1Inner {
     padding-bottom: var(--padding-54xl);
     box-sizing: border-box;
@@ -347,44 +373,55 @@
     padding-right: var(--padding-21xl);
     box-sizing: border-box;
   }
+
   .parkAnywhere {
     font-size: var(--font-size-39xl);
   }
+
   .withTheOnly {
     font-size: var(--font-size-5xl);
   }
+
   .tiredOfDealingContainer {
     font-size: var(--font-size-13xl);
   }
+
   .scoochLetsYouPayForParkinWrapper {
     padding-left: var(--padding-89xl);
     padding-right: var(--padding-89xl);
     box-sizing: border-box;
   }
+
   .saveTime {
     font-size: var(--font-size-13xl);
   }
+
   .advantageCard {
     padding-top: var(--padding-7xl);
     padding-bottom: var(--padding-246xl);
     box-sizing: border-box;
   }
+
   .frameParent1 {
     padding-left: var(--padding-100xl);
     display: grid;
     grid-template-columns: 468px repeat(auto-fit, 456px);
-    grid-row-gap: 0;
+    grid-row-gap: 0px;
     grid-column-gap: 19px;
   }
+
   .frameContainer {
     gap: var(--gap-xl);
   }
+
   .frameGroup {
     gap: var(--gap-25xl);
   }
+
   .backOrangeParent {
     gap: var(--gap-18xl);
   }
+
   .desktopV1Inner {
     padding-bottom: var(--padding-28xl);
     box-sizing: border-box;
@@ -394,38 +431,47 @@
   .frameParent {
     gap: var(--gap-111xl);
   }
+
   .parkAnywhere {
     font-size: var(--font-size-24xl);
   }
+
   .withTheOnly {
     font-size: var(--font-size-lg);
   }
+
   .tiredOfDealingContainer {
     font-size: var(--font-size-5xl);
   }
+
   .scoochLetsYouPayForParkinWrapper {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .saveTime {
     font-size: var(--font-size-5xl);
   }
+
   .saveTimeWrapper {
     padding-left: var(--padding-21xl);
     padding-right: var(--padding-20xl);
     box-sizing: border-box;
   }
+
   .frameParent1 {
     padding-left: var(--padding-xl);
     display: grid;
     grid-template-columns: 468px repeat(auto-fit, 456px);
-    grid-row-gap: 0;
+    grid-row-gap: 0px;
     grid-column-gap: 19px;
   }
+
   .frameGroup {
     gap: var(--gap-3xl);
   }
+
   .backOrangeParent {
     gap: var(--gap-lgi);
   }
