@@ -12,12 +12,12 @@ const AnimationWrapper: FunctionComponent<AnimationWrapperType> = ({
   className = "",
 }) => {
   return (
-    <Box className={[styles.animationWrapper, className].join(" ")}>
+    <div className={[styles.animationWrapper, className].join(" ")}>
       <SmartphoneAnimation property1="Default" />
-      <Box className={styles.clickOnSmartphone}>
+      <div className={styles.clickOnSmartphone}>
         CLICK on smartphone TO SEE FEATURES
-      </Box>
-    </Box>
+      </div>
+    </div>
   );
 };
 

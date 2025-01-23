@@ -8,7 +8,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-32xl);
+  padding: 0px var(--padding-32xl);
 }
 .priceRangeInfo {
   align-self: stretch;
@@ -50,7 +50,9 @@
   box-sizing: border-box;
   white-space: nowrap;
 }
-.residential,
+.residential {
+  margin: 0;
+}
 .streetParking {
   margin: 0;
 }
@@ -93,54 +95,61 @@
   box-sizing: border-box;
   white-space: nowrap;
 }
-.availabilityIcons,
-.availabilityIcons1,
+.availabilityIcons {
+  width: 17px;
+  height: 17px;
+  position: relative;
+}
+.availabilityIcons1 {
+  width: 17px;
+  height: 17px;
+  position: relative;
+}
 .availabilityIcons2 {
   width: 17px;
   height: 17px;
   position: relative;
 }
-.availabilityIconSet,
-.availabilityIcons3 {
+.availabilityIconSet {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-.availabilityIconSet {
   justify-content: flex-start;
   gap: var(--gap-6xl);
 }
 .availabilityIcons3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 var(--padding-12xs);
+  padding: 0px 0px var(--padding-12xs);
 }
-.busyLot,
-.highNumberOf,
-.noSpotsAvailable {
+.highNumberOf {
+  align-self: stretch;
   position: relative;
   text-transform: uppercase;
   font-weight: 500;
 }
-.highNumberOf {
-  align-self: stretch;
-}
-.busyLot,
-.noSpotsAvailable {
+.busyLot {
   width: 299px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
   display: inline-block;
 }
 .noSpotsAvailable {
   width: 185px;
-}
-.availabilityLevels,
-.spotAvailability {
-  display: flex;
-  justify-content: flex-start;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
 }
 .availabilityLevels {
   flex: 1;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-4xl-5);
 }
 .spotAvailability {
@@ -148,8 +157,10 @@
   top: 462px;
   left: 667px;
   width: 332px;
+  display: flex;
   flex-direction: row;
   align-items: flex-end;
+  justify-content: flex-start;
   gap: var(--gap-4xs);
   z-index: 1;
   text-align: left;
@@ -165,7 +176,7 @@
   top: 393px;
   left: 857px;
   border-radius: var(--br-21xl);
-  background-color: var(--color-orange);
+  background-color: var(--orange);
   width: 178px;
   display: flex;
   flex-direction: row;
@@ -176,7 +187,6 @@
   box-sizing: border-box;
   white-space: nowrap;
 }
-.image3Icon,
 .simplePhone1 {
   position: absolute;
   top: 93px;
@@ -187,17 +197,16 @@
   z-index: 2;
 }
 .image3Icon {
+  position: absolute;
   top: 279px;
   left: 671px;
   border-radius: var(--br-28xl);
   width: 381px;
   height: 665px;
+  object-fit: cover;
   z-index: 3;
 }
-.groupIcon1,
-.groupIcon2,
-.groupIcon3,
-.groupIcon4 {
+.groupIcon1 {
   position: absolute;
   height: 4.55%;
   width: 1.96%;
@@ -210,31 +219,49 @@
   max-height: 100%;
   z-index: 4;
 }
-.groupIcon2,
-.groupIcon3,
-.groupIcon4 {
+.groupIcon2 {
+  position: absolute;
+  height: 4.55%;
+  width: 1.96%;
   top: 63.07%;
   right: 54.82%;
   bottom: 32.38%;
   left: 43.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
 }
-.groupIcon3,
-.groupIcon4 {
+.groupIcon3 {
+  position: absolute;
+  height: 4.55%;
+  width: 1.96%;
   top: 49.22%;
   right: 54.7%;
   bottom: 46.23%;
   left: 43.34%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
 }
 .groupIcon4 {
+  position: absolute;
+  height: 4.55%;
+  width: 1.96%;
   top: 55.31%;
   right: 44.33%;
   bottom: 40.14%;
   left: 53.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
 }
 .detailsBackground {
   position: absolute;
   top: 124px;
-  left: 0;
+  left: 0px;
   border-radius: var(--br-25xl);
   background-color: var(--blue);
   width: 100%;
@@ -251,12 +278,15 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 var(--padding-9xs-8);
+  padding: 0px 0px var(--padding-9xs-8);
 }
 .lazLot {
   margin: 0;
   flex: 1;
   position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
   flex-shrink: 0;
 }
 .street1 {
@@ -265,7 +295,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-12xs);
+  padding: 0px 0px 0px var(--padding-12xs);
 }
 .mayfieldRd {
   width: 136px;
@@ -274,28 +304,28 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.address,
-.location1 {
-  display: flex;
-  justify-content: flex-start;
-}
 .address {
   flex: 1;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
   flex-shrink: 0;
 }
 .location1 {
   width: 298.9px;
+  display: flex;
   flex-direction: row;
   align-items: flex-end;
-  padding: 0 var(--padding-xl) 0 0;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xl) 0px 0px;
   box-sizing: border-box;
   gap: var(--gap-2xs-2);
 }
 .hourlyRates {
   align-self: stretch;
   position: relative;
+  font-size: var(--font-size-smi);
   text-transform: uppercase;
 }
 .minFree {
@@ -310,7 +340,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-sm);
+  padding: 0px var(--padding-sm);
 }
 .min100 {
   flex: 1;
@@ -322,7 +352,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-smi) 0 var(--padding-xs);
+  padding: 0px var(--padding-smi) 0px var(--padding-xs);
 }
 .hr200 {
   flex: 1;
@@ -334,7 +364,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-2xl);
+  padding: 0px var(--padding-2xl);
 }
 .hr350 {
   flex: 1;
@@ -346,27 +376,26 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-xl);
-}
-.hourlyRates1,
-.rateTable {
-  display: flex;
-  justify-content: flex-start;
+  padding: 0px var(--padding-xl);
 }
 .rateTable {
   height: 81px;
   flex: 1;
+  display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 0 var(--padding-12xs) var(--padding-sm) 0;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs) var(--padding-sm) 0px;
   box-sizing: border-box;
   gap: var(--gap-9xs);
 }
 .hourlyRates1 {
   border-radius: var(--br-2xs);
   background-color: var(--grey);
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: flex-start;
   padding: var(--padding-mini) var(--padding-base);
 }
 .separator {
@@ -374,44 +403,49 @@
   position: relative;
   font-weight: 900;
 }
-.hours,
-.minutes {
+.hours {
   position: relative;
   display: inline-block;
   min-width: 37px;
 }
 .minutes {
+  position: relative;
+  display: inline-block;
   min-width: 48px;
 }
 .unitLabels {
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-xl);
   z-index: 1;
 }
-.duration,
-.timeDisplay,
-.timeUnits,
-.unitLabels {
+.timeUnits {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.timeUnits {
-  flex-direction: row;
-  padding: 0 0 0 var(--padding-11xs);
+  padding: 0px 0px 0px var(--padding-11xs);
   margin-top: -4px;
   font-size: var(--font-size-xs);
 }
-.duration,
-.timeDisplay {
+.duration {
   flex: 1;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .timeDisplay {
   align-self: stretch;
+  flex: 1;
   border-radius: var(--br-2xs);
   border: 1px solid var(--white);
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: var(--padding-9xs) var(--padding-23xl);
 }
 .parkHereNow {
@@ -431,23 +465,22 @@
 .timer {
   align-self: stretch;
   flex: 1;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-5xs);
   text-align: left;
   font-size: var(--h3-size);
   color: var(--white);
 }
-.parkingInfo,
-.pricing,
-.timer {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
 .pricing {
   align-self: stretch;
   flex: 1;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-3xs);
   text-align: center;
   font-size: var(--font-size-2xs);
@@ -459,7 +492,10 @@
   left: 25px;
   width: 338px;
   height: 186px;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-mini);
   z-index: 1;
 }
@@ -478,18 +514,22 @@
 }
 .smartphoneAnimation {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 100%;
   height: 100%;
   z-index: 1;
   text-align: center;
   font-size: var(--font-size-xl);
   color: var(--black);
-  font-family: var(--p);
+  font-family: var(--h3);
 }
+
 @media screen and (max-width: 900px) {
-  .lazLot,
+  .lazLot {
+    font-size: var(--font-size-5xl);
+  }
+
   .separator {
     font-size: var(--font-size-5xl);
   }
@@ -498,7 +538,11 @@
   .residentialStreetParkingContainer {
     font-size: var(--p-size);
   }
-  .lazLot,
+
+  .lazLot {
+    font-size: var(--font-size-lg);
+  }
+
   .separator {
     font-size: var(--font-size-lg);
   }

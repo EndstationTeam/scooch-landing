@@ -10,17 +10,17 @@ export type FooterType = {
 const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
   return (
     <footer className={[styles.footer, className].join(" ")}>
-      <Box className={styles.footerContent}>
-        <Box className={styles.contactDetailsParent}>
-          <Box className={styles.contactDetails}>
-            <Box className={styles.socialLinks}>
+      <div className={styles.footerContent}>
+        <div className={styles.contactDetailsParent}>
+          <div className={styles.contactDetails}>
+            <div className={styles.socialLinks}>
               <img
                 className={styles.calque1Icon}
                 loading="lazy"
                 alt=""
                 src="/calque-1-1.svg"
               />
-              <Box className={styles.linkedInButton}>
+              <div className={styles.linkedInButton}>
                 <img
                   className={styles.linkedInIcon}
                   loading="lazy"
@@ -33,14 +33,14 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
                   alt=""
                   src="/vector-8.svg"
                 />
-              </Box>
-            </Box>
-            <Box className={styles.ourAppHelps}>
+              </div>
+            </div>
+            <div className={styles.ourAppHelps}>
               Our app helps you find and reserve parking spots in seconds,
               reducing traffic, saving time, and cutting down on urban pollution
               for a greener city experience.
-            </Box>
-          </Box>
+            </div>
+          </div>
           <Button
             className={styles.website}
             disableElevation
@@ -57,9 +57,9 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           >
             info@scooch.com
           </Button>
-        </Box>
-        <Box className={styles.downloadOptionsWrapper}>
-          <Box className={styles.downloadOptions}>
+        </div>
+        <div className={styles.downloadOptionsWrapper}>
+          <div className={styles.downloadOptions}>
             <Button
               disableElevation
               variant="contained"
@@ -75,7 +75,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
             >
               DOWNLOAD the APP
             </Button>
-            <Box className={styles.storeButtons}>
+            <div className={styles.storeButtons}>
               <img
                 className={styles.appStoreIcon}
                 loading="lazy"
@@ -88,10 +88,10 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
                 alt=""
                 src="/google-play-1.svg"
               />
-            </Box>
-          </Box>
-        </Box>
-      </Box>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };

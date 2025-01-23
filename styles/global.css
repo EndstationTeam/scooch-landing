@@ -7,7 +7,7 @@ body {
 }
 :root {
   /* fonts */
-  --p: Gotham;
+  --h3: Gotham;
 
   /* font sizes */
   --p-size: 16px;
@@ -31,7 +31,7 @@ body {
   --black: #151818;
   --white: #fff;
   --color-gainsboro: #dadada;
-  --color-orange: #fbb031;
+  --orange: #fbb031;
   --grey: #e9ecec;
   --blue: #54c5d4;
   --green: #a8cf38;

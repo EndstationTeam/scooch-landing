@@ -10,7 +10,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-39xl) 0 0;
+  padding: 0px var(--padding-39xl) 0px 0px;
   box-sizing: border-box;
   z-index: 2;
 }
@@ -47,7 +47,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-32xl-2) 0 0;
+  padding: 0px var(--padding-32xl-2) 0px 0px;
   box-sizing: border-box;
   z-index: 2;
 }
@@ -84,7 +84,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-42xl);
+  padding: 0px 0px 0px var(--padding-42xl);
   box-sizing: border-box;
   z-index: 2;
 }
@@ -121,7 +121,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-15xl);
+  padding: 0px 0px 0px var(--padding-15xl);
   box-sizing: border-box;
 }
 .fastEasy {
@@ -133,24 +133,25 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.iconList,
 .iconRow3 {
   height: 176px;
+  width: 218px;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.iconRow3 {
-  width: 218px;
-  flex-direction: column;
   padding: var(--padding-20xl) var(--padding-2xl) var(--padding-12xl);
   box-sizing: border-box;
   gap: var(--gap-xl-7);
 }
 .iconList {
+  width: 872px;
+  height: 176px;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-shrink: 0;
-  position: relative;
 }
 .groupIcon2 {
   height: 61px;
@@ -164,7 +165,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-39xl) 0 0;
+  padding: 0px var(--padding-39xl) 0px 0px;
   box-sizing: border-box;
   z-index: 2;
 }
@@ -201,7 +202,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-32xl-2) 0 0;
+  padding: 0px var(--padding-32xl-2) 0px 0px;
   box-sizing: border-box;
   z-index: 2;
 }
@@ -231,14 +232,14 @@
   width: 54px;
   position: relative;
 }
-.frameBox {
+.frameDiv {
   width: 115px;
   height: 57.9px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-42xl);
+  padding: 0px 0px 0px var(--padding-42xl);
   box-sizing: border-box;
   z-index: 2;
 }
@@ -275,7 +276,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-15xl);
+  padding: 0px 0px 0px var(--padding-15xl);
   box-sizing: border-box;
 }
 .fastEasy1 {
@@ -287,24 +288,25 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.frameParent1,
-.iconList1 {
+.frameParent1 {
   height: 176px;
+  width: 218px;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.frameParent1 {
-  width: 218px;
-  flex-direction: column;
   padding: var(--padding-20xl) var(--padding-2xl) var(--padding-12xl);
   box-sizing: border-box;
   gap: var(--gap-xl-7);
 }
 .iconList1 {
+  width: 872px;
+  height: 176px;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-shrink: 0;
-  position: relative;
   z-index: 3;
 }
 .groupIcon4 {
@@ -319,7 +321,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-39xl) 0 0;
+  padding: 0px var(--padding-39xl) 0px 0px;
   box-sizing: border-box;
   z-index: 2;
 }
@@ -356,7 +358,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-32xl-2) 0 0;
+  padding: 0px var(--padding-32xl-2) 0px 0px;
   box-sizing: border-box;
   z-index: 2;
 }
@@ -393,7 +395,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-42xl);
+  padding: 0px 0px 0px var(--padding-42xl);
   box-sizing: border-box;
   z-index: 2;
 }
@@ -430,7 +432,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-15xl);
+  padding: 0px 0px 0px var(--padding-15xl);
   box-sizing: border-box;
 }
 .fastEasy2 {
@@ -442,24 +444,25 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.frameParent5,
-.iconList2 {
+.frameParent5 {
   height: 176px;
+  width: 218px;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.frameParent5 {
-  width: 218px;
-  flex-direction: column;
   padding: var(--padding-20xl) var(--padding-2xl) var(--padding-12xl);
   box-sizing: border-box;
   gap: var(--gap-xl-7);
 }
 .iconList2 {
+  width: 872px;
+  height: 176px;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-shrink: 0;
-  position: relative;
   z-index: 2;
 }
 .groupIcon6 {
@@ -474,7 +477,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-39xl) 0 0;
+  padding: 0px var(--padding-39xl) 0px 0px;
   box-sizing: border-box;
   z-index: 2;
 }
@@ -511,7 +514,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-32xl-2) 0 0;
+  padding: 0px var(--padding-32xl-2) 0px 0px;
   box-sizing: border-box;
   z-index: 2;
 }
@@ -548,7 +551,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-42xl);
+  padding: 0px 0px 0px var(--padding-42xl);
   box-sizing: border-box;
   z-index: 2;
 }
@@ -585,7 +588,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-15xl);
+  padding: 0px 0px 0px var(--padding-15xl);
   box-sizing: border-box;
 }
 .fastEasy3 {
@@ -597,39 +600,40 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.frameParent9,
-.iconList3 {
+.frameParent9 {
   height: 176px;
+  width: 218px;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.frameParent9 {
-  width: 218px;
-  flex-direction: column;
   padding: var(--padding-20xl) var(--padding-2xl) var(--padding-12xl);
   box-sizing: border-box;
   gap: var(--gap-xl-7);
 }
 .iconList3 {
+  width: 872px;
+  height: 176px;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-shrink: 0;
-  position: relative;
 }
 .iconScrollAnimation {
   height: 176px;
   width: 1726px;
   overflow: hidden;
   flex-shrink: 0;
-  padding: 0;
+  padding: 0px 0px 0px 0px;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(auto-fit, 872px);
-  grid-row-gap: 0;
-  grid-column-gap: 0;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
   z-index: 2;
   text-align: center;
   font-size: var(--font-size-xl);
   color: var(--white);
-  font-family: var(--p);
+  font-family: var(--h3);
 }

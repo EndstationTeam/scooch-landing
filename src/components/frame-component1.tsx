@@ -16,21 +16,14 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
       className={[styles.iconScrollAnimationParent, className].join(" ")}
     >
       <ICONSCROLLANIMATION property1="Default" />
-      <Box className={styles.frameWrapper}>
-        <Box className={styles.frameParent}>
-          <Box className={styles.groupWrapper}>
-            <img className={styles.groupIcon} alt="" src="/group-8.svg" />
-          </Box>
-          <Typography
-            className={styles.avoidScam}
-            variant="inherit"
-            component="h3"
-            sx={{ fontWeight: "900" }}
-          >
-            avoid scam
-          </Typography>
-        </Box>
-      </Box>
+      <div className={styles.frameWrapper}>
+        <div className={styles.frameParent}>
+          <div className={styles.groupWrapper}>
+            <img className={styles.groupIcon} alt="" />
+          </div>
+          <h3 className={styles.avoidScam}>avoid scam</h3>
+        </div>
+      </div>
     </section>
   );
 };

@@ -18,13 +18,13 @@ export type FeatureListType = {
 
 const FeatureList: FunctionComponent<FeatureListType> = ({
   className = "",
-  findParkingEasily,
-  locateTheBestSpotNearYourDest,
-  iphone2PlanDeTravail12,
   featureListHeight,
   parkingBenefitsAlignSelf,
+  findParkingEasily,
   findParkingEasilyFlex,
   findParkingEasilyWidth,
+  locateTheBestSpotNearYourDest,
+  iphone2PlanDeTravail12,
 }) => {
   const featureListStyle: CSSProperties = useMemo(() => {
     return {
@@ -46,33 +46,27 @@ const FeatureList: FunctionComponent<FeatureListType> = ({
   }, [findParkingEasilyFlex, findParkingEasilyWidth]);
 
   return (
-    <Box
+    <div
       className={[styles.featureList, className].join(" ")}
       style={featureListStyle}
     >
-      <Box className={styles.parkingBenefits} style={parkingBenefitsStyle}>
-        <Typography
-          className={styles.findParkingEasily}
-          variant="inherit"
-          component="h1"
-          sx={{ fontWeight: "900" }}
-          style={findParkingEasilyStyle}
-        >
+      <div className={styles.parkingBenefits} style={parkingBenefitsStyle}>
+        <h1 className={styles.findParkingEasily} style={findParkingEasilyStyle}>
           {findParkingEasily}
-        </Typography>
-      </Box>
-      <Box className={styles.reminderBenefits}>
-        <Box className={styles.locateTheBest}>
+        </h1>
+      </div>
+      <div className={styles.reminderBenefits}>
+        <div className={styles.locateTheBest}>
           {locateTheBestSpotNearYourDest}
-        </Box>
+        </div>
         <img
           className={styles.iphone2planDeTravail12Icon}
           loading="lazy"
           alt=""
           src={iphone2PlanDeTravail12}
         />
-      </Box>
-    </Box>
+      </div>
+    </div>
   );
 };
 
