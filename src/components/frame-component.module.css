@@ -41,12 +41,13 @@
 .parkAnywhere {
   margin: 0;
   position: absolute;
-  top: 224px;
+  top: 200px;
   left: 0px;
-  font-size: inherit;
+  font-size: 56px;
   font-weight: 900;
   font-family: inherit;
   display: inline-block;
+  line-height: 1.2;
   width: 559px;
   height: 86px;
   z-index: 1;
@@ -67,7 +68,7 @@
 }
 .button {
   position: absolute;
-  top: 368px;
+  top: 370px;
   left: 0px;
 }
 .appStoreIcon {
@@ -90,7 +91,7 @@
 }
 .iphonePlanDeTravail1Icon {
   position: absolute;
-  top: 85.1px;
+  top: 50px;
   left: 0px;
   width: 623.1px;
   height: 710px;
@@ -98,7 +99,7 @@
 }
 .iphonePlanDeTravail1CopieIcon {
   position: absolute;
-  top: 0px;
+  top: 20px;
   left: 311.3px;
   width: 531.9px;
   height: 688.8px;
@@ -245,8 +246,10 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-21xl) 0px var(--padding-388xl);
+  /* padding: 30px; */
   position: relative;
   gap: var(--gap-3xs);
+  /* gap: 50px; */
 }
 .advantageCardWrapper {
   margin-left: -487px;
@@ -263,12 +266,12 @@
   height: 549px;
   padding: 0px var(--padding-12xs) 0px var(--padding-458xl);
   box-sizing: border-box;
-  gap: var(--gap-lgi);
+  gap: 40px;
   max-width: 100%;
   display: grid;
   grid-template-columns: 468px repeat(auto-fit, 456px);
   grid-row-gap: 0px;
-  grid-column-gap: 19px;
+  grid-column-gap: 15px;
   z-index: 1;
   color: var(--black);
 }
@@ -289,7 +292,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-156xl);
+  gap: 80px;
   max-width: 100%;
 }
 .frameWrapper {
