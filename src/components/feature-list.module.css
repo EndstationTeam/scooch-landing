@@ -58,6 +58,7 @@
   color: var(--black);
   font-family: var(--h3);
   gap: 20px;
+  margin-left: -450px;
 }
 
 @media screen and (max-width: 900px) {

@@ -406,7 +406,9 @@
   }
 
   .frameParent1 {
-    padding-left: var(--padding-100xl);
+    /* padding-left: var(--padding-100xl); */
+    padding: 10px;
+    max-width: 100%;
     display: grid;
     grid-template-columns: 468px repeat(auto-fit, 456px);
     grid-row-gap: 0px;
@@ -414,11 +416,11 @@
   }
 
   .frameContainer {
-    gap: var(--gap-xl);
+    column-gap: 0; /* var(--gap-xl); */
   }
 
   .frameGroup {
-    gap: var(--gap-25xl);
+    gap: 0px; /* var(--gap-25xl); */
   }
 
   .backOrangeParent {
