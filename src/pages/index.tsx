@@ -8,10 +8,12 @@ import AppFeatures from "../components/app-features";
 import AnimationWrapper from "../components/animation-wrapper";
 import PollutionStats from "../components/pollution-stats";
 import Footer from "../components/footer";
+import Header from "../components/header";
 
 const DesktopV: FunctionComponent = () => {
   return (
     <div className="w-full relative bg-gray overflow-hidden flex flex-col items-end justify-start leading-[normal] tracking-[normal]">
+      <Header /> 
       <FrameComponent />
       <FrameComponent1 />
       <FrameComponent2 />
