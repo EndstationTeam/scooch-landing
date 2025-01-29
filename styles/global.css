@@ -12,3 +12,16 @@ body {
 ::after {
   border-width: 0;
 }
+
+@keyframes scroll-ping-pong {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+ 

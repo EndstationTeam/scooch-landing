@@ -14,10 +14,7 @@ const AnimationWrapper: FunctionComponent<AnimationWrapperType> = ({
     <div
       className={`absolute top-[0px] left-[2px] w-full h-[1083px] text-center text-xl text-gray font-h2 ${className}`}
     >
-      <SmartphoneAnimation property1="Default" />
-      <div className="absolute top-[61px] left-[659px] text-sm uppercase font-medium text-white inline-block w-[408px] h-[17px] z-[6]">
-        CLICK on smartphone TO SEE FEATURES
-      </div>
+      <SmartphoneAnimation />
     </div>
   );
 };

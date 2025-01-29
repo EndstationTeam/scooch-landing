@@ -45,6 +45,7 @@ const Header: FunctionComponent = () => {
           sx={{
             color: "#151818",
             fontSize: "16",
+            fontWeight: "bold",
             background: "#fbb031",
             borderRadius: "40px",
             "&:hover": { background: "#fbb031" },

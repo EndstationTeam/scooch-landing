@@ -47,6 +47,7 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
                   sx={{
                     color: "#151818",
                     fontSize: "16",
+                    fontWeight: "bold",
                     background: "#fbb031",
                     borderRadius: "40px",
                     "&:hover": { background: "#fbb031" },
@@ -104,24 +105,6 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
               </div>
               {/* <div className="self-stretch flex flex-row items-start justify-start py-0 pl-[477px] pr-px box-border gap-[19px] max-w-full z-[1] text-gray mq900:pl-[119px] mq900:box-border mq450:pl-5 mq450:box-border mq1300:pl-[238px] mq1300:box-border mq1650:flex-wrap mq1650:justify-center"> */}
               <div className="self-stretch flex flex-row items-start justify-start py-0 px-5 box-border gap-5 max-w-full z-[1] text-gray mq900:px-5 mq450:px-5 mq1300:px-5 mq1650:flex-wrap mq1650:justify-center">
-                {/* <div className="ml-[-487px] w-[468px] flex flex-col items-start justify-start py-0 pl-0 pr-3 box-border max-w-full">
-                  <div className="self-stretch rounded-xl bg-white overflow-hidden flex flex-col items-start justify-start pt-10 px-0 pb-[407px] relative gap-2.5 mq900:pt-[26px] mq900:pb-[265px] mq900:box-border">
-                    <div className="self-stretch flex flex-row items-start justify-start py-0 pl-20 pr-[79px] mq450:pl-10 mq450:pr-[39px] mq450:box-border">
-                      <h1 className="m-0 flex-1 relative text-inherit font-black font-[inherit] mq900:text-13xl mq450:text-5xl">
-                        Save time
-                      </h1>
-                    </div>
-                    <div className="self-stretch h-11 relative text-base text-grey-2 inline-block shrink-0">
-                      Skip downloads, sign ups and filling out forms
-                    </div>
-                    <img
-                      className="w-full h-[446px] absolute !m-[0] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden shrink-0 object-cover z-[1]"
-                      loading="lazy"
-                      alt=""
-                      src="/iphone2plandetravail1-2@2x.png"
-                    />
-                  </div>
-                </div> */}
                 <FeatureList
                   findParkingEasily="Save time"
                   locateTheBestSpotNearYourDest="Skip downloads, sign ups, and filling out forms"
