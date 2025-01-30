@@ -50,8 +50,9 @@ const Header: FunctionComponent = () => {
             borderRadius: "40px",
             "&:hover": { background: "#fbb031" },
           }}
+          href="https://scooch.cc"
         >
-          DOWNLOAD APP
+          CHECKOUT THE APP
         </Button>
       </div>
     </header>

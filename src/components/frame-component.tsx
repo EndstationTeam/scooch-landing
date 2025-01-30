@@ -45,26 +45,34 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
                   disableElevation
                   variant="contained"
                   sx={{
-                    color: "#151818",
-                    fontSize: "16",
-                    fontWeight: "bold",
-                    background: "#fbb031",
-                    borderRadius: "40px",
-                    "&:hover": { background: "#fbb031" },
-                    width: 247,
-                    height: 58,
+                  color: "#151818",
+                  fontSize: "16",
+                  fontWeight: "bold",
+                  background: "#fbb031",
+                  borderRadius: "40px",
+                  "&:hover": { background: "#fbb031" },
+                  width: 247,
+                  height: 58,
                   }}
+                  href="https://scooch.cc"
                 >
                   SAY NO TO NEW APPS
                 </Button>
+                <Typography
+                  className="absolute top-[465px] left-[325px]"
+                  variant="body2"
+                  sx={{ color: "#ffffff", fontWeight: "bold", fontSize: "16px" }}
+                >
+                  Coming Soon On
+                </Typography>
                 <img
-                  className="absolute top-[460px] left-[277px] w-[109px] h-7 overflow-hidden z-[1]"
+                  className="absolute top-[500px] left-[277px] w-[109px] h-7 overflow-hidden z-[1]"
                   loading="lazy"
                   alt=""
                   src="/app-store.svg"
                 />
                 <img
-                  className="absolute top-[460px] left-[416px] w-[118px] h-7 overflow-hidden z-[1]"
+                  className="absolute top-[500px] left-[416px] w-[118px] h-7 overflow-hidden z-[1]"
                   loading="lazy"
                   alt=""
                   src="/google-play.svg"

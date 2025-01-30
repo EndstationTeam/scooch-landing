@@ -25,21 +25,23 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
           </h1>
         </div>
         <div className="flex flex-row items-center justify-center py-0 pl-[553px] pr-[555px] mq900:pl-[138px] mq900:pr-[138px] mq900:box-border mq450:pl-5 mq450:pr-5 mq450:box-border mq1300:pl-[276px] mq1300:pr-[277px] mq1300:box-border">
-          <Button
+            <Button
             disableElevation
             variant="contained"
             sx={{
               color: "#151818",
               fontSize: "16",
+              fontWeight: "bold",
               background: "#fbb031",
               borderRadius: "40px",
               "&:hover": { background: "#fbb031" },
               width: 240,
               height: 58,
             }}
-          >
-            DOWNLOAD the APP
-          </Button>
+            href="https://scooch.cc"
+            >
+            CHECKOUT the APP
+            </Button>
         </div>
       </div>
     </section>
