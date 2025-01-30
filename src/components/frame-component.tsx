@@ -104,8 +104,8 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
                       <span> you park somewhere new?</span>
                     </p>
                   </h1>
-                  <div className="self-stretch flex flex-row items-start justify-start py-0 pl-[200px] pr-[150px] box-border max-w-full text-left text-base mq900:pl-[108px] mq900:pr-[108px] mq900:box-border mq450:pl-5 mq450:pr-5 mq450:box-border">
-                    <div className="flex-1 relative inline-block w-full z-[1]">
+                  <div className="self-stretch flex flex-row items-center justify-center py-0 pl-[200px] pr-[150px] box-border max-w-full text-left text-base mq900:pl-[108px] mq900:pr-[108px] mq900:box-border mq450:pl-5 mq450:pr-5 mq450:box-border">
+                    <div className="flex-1 relative inline-block w-full z-[1] text-center">
                       Scooch lets you pay for parking anywhere
                     </div>
                   </div>
