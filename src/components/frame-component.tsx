@@ -66,13 +66,13 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
                   Coming Soon On
                 </Typography>
                 <img
-                  className="absolute top-[500px] left-[277px] w-[109px] h-7 overflow-hidden z-[1]"
+                  className="absolute top-[510px] left-[277px] w-[109px] h-7 overflow-hidden z-[1]"
                   loading="lazy"
                   alt=""
                   src="/app-store.svg"
                 />
                 <img
-                  className="absolute top-[500px] left-[416px] w-[118px] h-7 overflow-hidden z-[1]"
+                  className="absolute top-[510px] left-[416px] w-[118px] h-7 overflow-hidden z-[1]"
                   loading="lazy"
                   alt=""
                   src="/google-play.svg"

@@ -57,7 +57,7 @@ const PollutionStats: FunctionComponent<PollutionStatsType> = ({
     //     </div>
     //   </div>
     // </div>
-    <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[934px] box-border relative max-w-full text-center text-21xl text-white font-h2 mq900:pb-[395px] mq900:box-border mq1300:pb-[607px] mq1300:box-border ${className}">
+    <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 box-border relative max-w-full text-center text-21xl text-white font-h2 mq900:box-border mq1300:box-border ${className}">
     {/* Background gradient */}
     <div className="w-full h-[1485px] absolute !m-[0] right-[-1727px] bottom-[-1745px] left-[1727px] [background:radial-gradient(50%_50%_at_50%_50%,_rgba(138,_87,_0,_0.6),_rgba(25,_28,_28,_0))] [transform:_rotate(-180deg)] [transform-origin:0_0]" />
 
@@ -81,9 +81,11 @@ const PollutionStats: FunctionComponent<PollutionStatsType> = ({
 
       {/* Description */}
       <div className="w-full relative text-base mt-4 z-[2] mq450:mt-5">
-        In the US alone, drivers looking for parking produce 9.3 million tons
-        of carbon emissions per year. Use Scooch to find parking, reduce
-        congestion and make our cities greener.
+        In the US alone, drivers looking for parking produce <span className="font-bold text-orange">18.6 billion pounds </span>
+        of carbon emissions per year. Use Scooch to find parking, reduce congestion and make our cities greener.
+      </div>
+      <div className="w-full relative text-sm mt-2 z-[2] mq450:mt-3">
+        Source: <a href="https://itdp.org/2022/09/20/to-tackle-climate-change-cities-need-to-rethink-parking/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">ITDP</a>
       </div>
     </div>
   </div>

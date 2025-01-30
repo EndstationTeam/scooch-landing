@@ -12,6 +12,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
   return (
     <section
       className={`self-stretch flex flex-row items-center justify-center pt-0 pb-5 pl-[23px] pr-5 box-border max-w-full text-center text-53xl text-white font-h2 ${className}`}
+      style={{ zIndex: 10 }}
     >
       <div className="flex flex-col items-center justify-center gap-10 max-w-full mq900:gap-5">
         <div className="self-stretch flex flex-col items-center justify-center max-w-full">
