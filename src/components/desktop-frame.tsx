@@ -41,7 +41,7 @@ const DesktopFrame: FunctionComponent<DesktopFrameType> = ({
                   With the only parking app you’ll ever need
                 </h2>
                 <Button
-                  className="absolute top-[428px] left-[0px]"
+                  className="absolute top-[465px] left-[0px]"
                   disableElevation
                   variant="contained"
                   sx={{
