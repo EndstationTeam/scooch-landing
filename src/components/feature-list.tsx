@@ -25,8 +25,10 @@ const FeatureList: FunctionComponent<FeatureListType> = ({
         </h1>
       </div>
       <div className="self-stretch h-[461px] relative text-base text-grey-2">
-        <div className="absolute top-[0px] left-[1px] inline-block w-[454px] h-11">
-          {locateTheBestSpotNearYourDest}
+        <div className="self-stretch flex flex-row items-center justify-center py-0 px-5 box-border max-w-full text-center text-sm">
+          <div className="flex-1 relative inline-block w-full z-[1] text-center">
+            {locateTheBestSpotNearYourDest}
+          </div>
         </div>
         <img
           className="absolute top-[15px] left-[0px] w-[456px] h-[446px] object-cover z-[1]"

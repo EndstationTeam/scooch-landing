@@ -125,7 +125,7 @@ const DesktopFrame: FunctionComponent<DesktopFrameType> = ({
                 />
                 <FeatureList
                   findParkingEasily="Avoid Tickets"
-                  locateTheBestSpotNearYourDest="Get reminders before time runs out."
+                  locateTheBestSpotNearYourDest="Get reminders before time runs out"
                   iphone2PlanDeTravail12="/iphone2plandetravail1-2-2@2x.png"
                 />
               </div>
