@@ -123,7 +123,7 @@ const DesktopFooter: FunctionComponent<DesktopFooterType> = ({ className = "" })
                         }}
                         href="https://scooch.cc"
                     >
-                        CHECKOUT the APP
+                        CHECK OUT THE APP
                     </Button>
                     <div className="flex flex-col items-center justify-center gap-[10px]">
                         <div className="text-white font-bold text-lg">Coming soon on</div>

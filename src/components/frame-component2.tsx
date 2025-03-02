@@ -41,7 +41,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
             }}
             href="https://scooch.cc"
             >
-            CHECKOUT the APP
+            CHECK OUT THE APP
             </Button>
         </div>
       </div>

@@ -68,7 +68,7 @@ const DesktopV: FunctionComponent = () => {
                   <div className="w-[326px] flex flex-col items-start justify-start gap-2.5 max-w-full text-base text-white">
                     <div className="self-stretch relative">
                       <p className="m-0">is caused by drivers searching</p>
-                      <p className="m-0">for a parking.</p>
+                      <p className="m-0">for parking</p>
                     </div>
                     <p className="self-stretch relative text-sm text-gainsboro">
                       Source: {""}

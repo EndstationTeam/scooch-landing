@@ -82,7 +82,7 @@ const PollutionStats: FunctionComponent<PollutionStatsType> = ({
       {/* Description */}
       <div className="w-full relative text-base mt-4 z-[2] mq450:mt-5">
         In the US alone, drivers looking for parking produce <span className="font-bold text-orange">18.6 billion pounds </span>
-        of carbon emissions per year. Use Scooch to find parking, reduce congestion and make our cities greener.
+        of carbon emissions per year. Use Scooch to find parking, reduce congestion, and make our cities greener
       </div>
       <div className="w-full relative text-sm mt-2 z-[2] mq450:mt-3">
         Source: <a href="https://itdp.org/2022/09/20/to-tackle-climate-change-cities-need-to-rethink-parking/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">ITDP</a>

@@ -50,7 +50,7 @@ const DesktopHeader: FunctionComponent = () => {
           }}
           href="https://scooch.cc"
         >
-          CHECKOUT THE APP
+          CHECK OUT THE APP
         </Button>
       </div>
     </header>
