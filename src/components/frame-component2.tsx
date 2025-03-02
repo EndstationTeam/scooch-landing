@@ -18,11 +18,11 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
         <div className="self-stretch flex flex-col items-center justify-center max-w-full">
           <div className="self-stretch flex flex-row items-center justify-center py-0 px-[226px] box-border max-w-full mq900:pl-14 mq900:pr-14 mq900:box-border mq450:pl-5 mq450:pr-5 mq450:box-border mq1300:pl-[113px] mq1300:pr-[113px] mq1300:box-border">
             <h1 className="m-0 flex-1 relative text-inherit font-black font-[inherit] inline-block max-w-full mq900:text-39xl mq450:text-24xl">
-              Parking just got simpler.
+              Parking just got simpler
             </h1>
           </div>
           <h1 className="m-0 self-stretch relative text-21xl font-black font-[inherit] text-orange mq900:text-13xl mq450:text-5xl">
-            Ready to park smarter? Get started with Scooch today.
+            Ready to park smarter? Get started with Scooch today
           </h1>
         </div>
         <div className="flex flex-row items-center justify-center py-0 pl-[553px] pr-[555px] mq900:pl-[138px] mq900:pr-[138px] mq900:box-border mq450:pl-5 mq450:pr-5 mq450:box-border mq1300:pl-[276px] mq1300:pr-[277px] mq1300:box-border">

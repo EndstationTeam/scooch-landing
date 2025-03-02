@@ -44,7 +44,7 @@ const DesktopV: FunctionComponent = () => {
                   <div className="w-[326px] flex flex-col items-start justify-center gap-2.5 max-w-full text-base text-white">
                     <div className="relative">
                       have avoided going to a destination due to the challenge of
-                      finding parking.
+                      finding parking
                     </div>
                     <p className="self-stretch relative text-sm text-gainsboro">
                       Source: {" "}
@@ -92,7 +92,7 @@ const DesktopV: FunctionComponent = () => {
                   <div className="w-[326px] flex flex-col items-start justify-start gap-2.5 max-w-full text-base text-white">
                     <div className="self-stretch relative">
                       <p className="m-0">by US drivers each year</p>
-                      <p className="m-0">when trying to park.</p>
+                      <p className="m-0">when trying to park</p>
                     </div>
                       <p className="self-stretch relative text-sm text-gainsboro">
                       Source: {" "}
