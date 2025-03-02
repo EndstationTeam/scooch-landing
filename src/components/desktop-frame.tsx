@@ -37,11 +37,11 @@ const DesktopFrame: FunctionComponent<DesktopFrameType> = ({
                       ">
                   Park Anywhere
                 </h1>
-                <h2 className="m-0 absolute top-[400px] left-[0px] text-11xl font-medium font-[inherit] text-orange inline-block w-[700px] h-9 z-[1] mq900:text-5xl mq450:text-lg">
-                  With the only parking app you’ll ever need
+                <h2 className="m-0 absolute top-[440px] left-[0px] text-11xl font-medium font-[inherit] text-orange inline-block w-[700px] h-9 z-[1] mq900:text-5xl mq450:text-lg">
+                  With the only parking app you'll ever need
                 </h2>
                 <Button
-                  className="absolute top-[465px] left-[0px]"
+                  className="absolute top-[505px] left-[0px]"
                   disableElevation
                   variant="contained"
                   sx={{
@@ -59,20 +59,20 @@ const DesktopFrame: FunctionComponent<DesktopFrameType> = ({
                   SAY NO TO NEW APPS
                 </Button>
                 <Typography
-                  className="absolute top-[465px] left-[325px]"
+                  className="absolute top-[525px] left-[325px]"
                   variant="body2"
                   sx={{ color: "#ffffff", fontWeight: "bold", fontSize: "16px" }}
                 >
                   Coming Soon On
                 </Typography>
                 <img
-                  className="absolute top-[510px] left-[277px] w-[109px] h-7 overflow-hidden z-[1]"
+                  className="absolute top-[550px] left-[277px] w-[109px] h-7 overflow-hidden z-[1]"
                   loading="lazy"
                   alt=""
                   src="/app-store.svg"
                 />
                 <img
-                  className="absolute top-[510px] left-[416px] w-[118px] h-7 overflow-hidden z-[1]"
+                  className="absolute top-[550px] left-[416px] w-[118px] h-7 overflow-hidden z-[1]"
                   loading="lazy"
                   alt=""
                   src="/google-play.svg"

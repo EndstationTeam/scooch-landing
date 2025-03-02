@@ -16,7 +16,8 @@ module.exports = {
       },
       spacing: {},
       fontFamily: {
-        h2: "Gotham",
+        h2: "Poppins, sans-serif",
+        sans: "Poppins, sans-serif",
       },
       borderRadius: {
         xl: "20px",

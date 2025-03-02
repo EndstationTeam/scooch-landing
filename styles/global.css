@@ -1,5 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gotham:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Link styles - more specific to exclude buttons */
+a:not(.MuiButton-root):not([role="button"]) {
+  color: #54c5d4; /* Light blue color from your theme */
+  transition: color 0.2s ease;
+}
+
+a:not(.MuiButton-root):not([role="button"]):visited {
+  color: #a8cf38; /* Light green color from your theme */
+}
+
+a:not(.MuiButton-root):not([role="button"]):hover {
+  color: #fbb031; /* Orange color from your theme */
+}
 
 @tailwind base;
 @tailwind components;
