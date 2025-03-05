@@ -10,7 +10,7 @@ export type FooterType = {
 
 const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
   // const isMobile = useScreenSize();
-  const isMobile =  useMediaQuery('(max-width:900px)', { noSsr: true });
+  const isMobile = useMediaQuery('(max-width:1100px)', { noSsr: true });
 
 
   return isMobile ? <MobileFooter /> : <DesktopFooter />;
