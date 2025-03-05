@@ -84,7 +84,7 @@ const MobileFooter: FunctionComponent<MobileFooterType> = ({ className = "" }) =
         for a greener city experience.
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-center md:items-start lg:items-start xl:items-start justify-center md:justify-start lg:justify-start xl:justify-start">
+        <div className="self-stretch flex flex-col items-center md:items-start lg:items-start xl:items-start justify-center md:justify-start lg:justify-start xl:justify-start gap-4">
           {typeof window !== "undefined" && (
             <Button
               className="w-[234px] h-[31px]"
@@ -104,6 +104,15 @@ const MobileFooter: FunctionComponent<MobileFooterType> = ({ className = "" }) =
               info@endstation.us
             </Button>
           )}
+          
+          <div className="flex flex-row items-center gap-6 text-white text-sm mt-2">
+            <a href="/privacy" className="hover:underline text-white">
+              Privacy Policy
+            </a>
+            <a href="/terms" className="hover:underline text-white">
+              Terms of Service
+            </a>
+          </div>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ import { useMediaQuery } from "@mui/material";
 
 const Header: FunctionComponent = () => {
   // const isMobile = useScreenSize();
-  const isMobile =  useMediaQuery('(max-width:900px)', { noSsr: true });
+  const isMobile =  useMediaQuery('(max-width:1100px)', { noSsr: true });
 
   return isMobile ? <MobileHeader /> : <DesktopHeader />;
 };
