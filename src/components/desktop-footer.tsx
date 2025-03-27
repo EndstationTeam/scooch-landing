@@ -86,9 +86,9 @@ const DesktopFooter: FunctionComponent<DesktopFooterType> = ({ className = "" })
                                 width: 234,
                                 height: 31,
                             }}
-                            onClick={() => (window.location.href = "mailto:info@endstation.us")}
+                            onClick={() => (window.location.href = "mailto:info@endstation.ai")}
                         >
-                            info@endstation.us
+                            info@endstation.ai
                         </Button>
                         
                         <div className="flex flex-row items-center gap-6 text-white text-sm">
