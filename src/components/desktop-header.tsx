@@ -34,7 +34,19 @@ const DesktopHeader: FunctionComponent = () => {
             alt="Logo"
             src="/calque-1.svg"
           />
+          <span className="
+            text-cyan-400 
+            text-sm 
+            mt-1 
+            font-light 
+            relative 
+            left-[60%]
+            -mt-6
+          ">
+            an Endstation AI solution
+          </span>
         </div>
+
 
         {/* Button */}
         <Button

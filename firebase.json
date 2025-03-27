@@ -2,6 +2,12 @@
   "hosting": {
     "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
     "headers": [
       {
         "source": "**/*",
@@ -45,6 +51,15 @@
           {
             "key": "cache-control",
             "value": "public, max-age=0, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "/.well-known/acme-challenge/**",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain"
           }
         ]
       }
